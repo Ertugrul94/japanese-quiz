@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Japanese Word Practice</title>
+
+  <!-- PWA -->
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#5b7cf6" />
+
+  <!-- iOS / Safari specific -->
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="JP Quiz" />
+  <link rel="apple-touch-icon" href="icons/icon-192.png" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- ── TOP BAR ──────────────────────────────────────────────── -->
+<div id="topbar">
+  <h1>🎌 Japanese Word Practice</h1>
+
+  <div class="tb-group">
+    <span class="tb-label">Level</span>
+    <select id="level-select">
+      <option value="N5">N5</option>
+      <option value="N4">N4 (coming soon)</option>
+      <option value="N3">N3 (coming soon)</option>
+    </select>
+  </div>
+
+  <div class="tb-group">
+    <span class="tb-label">Mode</span>
+    <select id="mode-select">
+      <option value="mixed">Mixed</option>
+      <option value="jp-en">JP → EN</option>
+      <option value="en-jp">EN → JP</option>
+    </select>
+  </div>
+
+  <button class="ghost" id="btn-word-select">📋 Word List</button>
+  <button class="primary" id="btn-start-quiz" disabled>▶ Start Quiz</button>
+</div>
+
+<!-- ── VIEW: WORD SELECTION ─────────────────────────────────── -->
+<div id="view-select" class="view">
+
+  <div id="select-header">
+    <h2>Select Words You Have Learned</h2>
+    <input id="search-box" type="search" placeholder="Search kanji, romaji, meaning…" />
+    <button class="ghost" id="btn-select-all">✓ All</button>
+    <button class="ghost" id="btn-deselect-all">✗ None</button>
+    <button class="ghost" id="btn-back-from-select">← Back to Quiz</button>
+    <span id="select-count" style="font-size:.8rem;color:#7480a0"></span>
+  </div>
+
+  <div class="filter-row">
+    <button class="filter-btn active" data-cat="all">All</button>
+    <button class="filter-btn" data-cat="verb">Verbs</button>
+    <button class="filter-btn" data-cat="noun">Nouns</button>
+    <button class="filter-btn" data-cat="adjective">Adjectives</button>
+    <button class="filter-btn" data-cat="pronoun">Pronouns</button>
+    <button class="filter-btn" data-cat="determiner">Determiners</button>
+  </div>
+
+  <div id="word-grid"></div>
+</div>
+
+<!-- ── VIEW: QUIZ ────────────────────────────────────────────── -->
+<div id="view-quiz" class="view">
+
+  <!-- Left: quiz panel -->
+  <div id="quiz-panel">
+
+    <div id="progress-wrap">
+      <div id="progress-bar-track"><div id="progress-bar-fill" style="width:0%"></div></div>
+      <span id="progress-label">0 / 0</span>
+    </div>
+
+    <div id="score-row">
+      <span class="score-pill correct" id="score-correct">✓ 0</span>
+      <span class="score-pill wrong"   id="score-wrong">✗ 0</span>
+    </div>
+
+    <div id="question-card">
+      <div id="quiz-mode-badge">–</div>
+      <div id="q-romaji">–</div>
+      <div id="q-reading"></div>
+      <div id="q-main"></div>
+      <div id="q-pos"></div>
+    </div>
+
+    <div id="answers-grid"></div>
+
+    <div id="feedback-area">
+      <span id="feedback-msg"></span>
+      <button class="primary" id="btn-next" style="display:none">Next →</button>
+    </div>
+
+    <div id="quiz-controls">
+      <button class="ghost" id="btn-restart-quiz">↺ Restart</button>
+      <button class="ghost" id="btn-quit-quiz">← Word List</button>
+    </div>
+
+  </div>
+
+  <!-- Right: sentences panel -->
+  <div id="sentences-panel">
+    <h3>Example Sentences</h3>
+
+    <div id="current-word-banner">
+      <div class="banner-kanji">–</div>
+      <div class="banner-reading"></div>
+      <div class="banner-meaning"></div>
+    </div>
+
+    <div id="sentences-container"></div>
+  </div>
+
+</div>
+
+<!-- ── VIEW: RESULT ──────────────────────────────────────────── -->
+<div id="view-result" class="view">
+  <div id="result-card">
+    <h2>Quiz Complete!</h2>
+    <div id="result-score">–%</div>
+    <p id="result-detail"></p>
+    <div class="result-btns">
+      <button class="primary" id="btn-result-retry">↺ Try Again</button>
+      <button class="ghost"   id="btn-result-select">📋 Word List</button>
+    </div>
+  </div>
+</div>
+
+<!-- ── TOAST ─────────────────────────────────────────────────── -->
+<div id="toast"></div>
+
+<!-- Data files — add n4_words.js, n3_words.js here when ready -->
+<script src="data/n5_words.js"></script>
+<script src="data/sentences.js"></script>
+<script src="js/app.js"></script>
+<script>
+  // Register Service Worker for offline PWA support
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('./sw.js')
+        .then(reg => console.log('SW registered:', reg.scope))
+        .catch(err => console.warn('SW registration failed:', err));
+    });
+  }
+</script>
+</body>
+</html>

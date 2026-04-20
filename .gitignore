@@ -1,0 +1,16 @@
+# Editor / OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Claude Code
+.claude/
+
+# Backup copies
+*- Copy*
+*- Copy.*
+
+# Icon generator helper (not needed in production)
+icons/generate-icons.html

@@ -4,7 +4,7 @@
    Bump CACHE_VERSION when you update any file.
    ============================================================ */
 
-const CACHE_VERSION = 'jp-quiz-v1';
+const CACHE_VERSION = 'jp-quiz-v2';
 
 const ASSETS = [
   './',

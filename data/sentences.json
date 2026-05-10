@@ -5,893 +5,1028 @@
       "present_pos": "Present / Non-past affirmative  (〜ます / 〜です)",
       "present_neg": "Present / Non-past negative     (〜ません / 〜くないです)",
       "past_pos":    "Past affirmative                (〜ました / 〜でした)",
-      "past_neg":    "Past negative                   (〜ませんでした / 〜くなかったです)"
-    },
-    "how_to_add": "Copy an existing block, change the word_id to match the target word in n5_words.json, then write your four sentences."
+      "past_neg":    "Past negative                   (〜ませんでした / 〜くなかったです)",
+      "want_pos":    "Want to ~                       (〜たいです)  — verbs only",
+      "potential_pos":"Can ~ / Able to                 (〜られます / 〜できます)  — verbs only"
+    }
   },
   "sentences": [
     {
-      "word_id": "n5_542",
-      "word": "食べる",
+      "word_id": "n5_001",
+      "word": "浴びる",
       "sentences": {
-        "present_pos": {
-          "japanese": "私は毎日ご飯を食べます。",
-          "romaji": "Watashi wa mainichi gohan wo tabemasu.",
-          "english": "I eat rice every day."
-        },
-        "present_neg": {
-          "japanese": "私は朝ご飯を食べません。",
-          "romaji": "Watashi wa asagohan wo tabemasen.",
-          "english": "I don't eat breakfast."
-        },
-        "past_pos": {
-          "japanese": "昨日、寿司を食べました。",
-          "romaji": "Kinou, sushi wo tabemashita.",
-          "english": "I ate sushi yesterday."
-        },
-        "past_neg": {
-          "japanese": "昨日は昼ご飯を食べませんでした。",
-          "romaji": "Kinou wa hirugohan wo tabemasen deshita.",
-          "english": "I didn't eat lunch yesterday."
-        }
+        "present_pos": { "japanese": "毎朝シャワーを浴びます。", "romaji": "Maiasa shawaa wo abimasu.", "english": "I take a shower every morning." },
+        "present_neg": { "japanese": "今日はシャワーを浴びません。", "romaji": "Kyou wa shawaa wo abimasen.", "english": "I'm not taking a shower today." },
+        "past_pos":    { "japanese": "昨日、お風呂を浴びました。", "romaji": "Kinou, ofuro wo abimashita.", "english": "I took a bath yesterday." },
+        "past_neg":    { "japanese": "今朝はシャワーを浴びませんでした。", "romaji": "Kesa wa shawaa wo abimasen deshita.", "english": "I didn't take a shower this morning." },
+        "want_pos":    { "japanese": "今すぐシャワーを浴びたいです。", "romaji": "Ima sugu shawaa wo abitai desu.", "english": "I want to take a shower right now." },
+        "potential_pos":{ "japanese": "ここでシャワーを浴びられます。", "romaji": "Koko de shawaa wo abiraremasu.", "english": "I can take a shower here." }
       }
     },
     {
-      "word_id": "n5_119",
-      "word": "飲む",
+      "word_id": "n5_002",
+      "word": "危ない",
       "sentences": {
-        "present_pos": {
-          "japanese": "毎朝コーヒーを飲みます。",
-          "romaji": "Maiasa koohii wo nomimasu.",
-          "english": "I drink coffee every morning."
-        },
-        "present_neg": {
-          "japanese": "お酒を飲みません。",
-          "romaji": "Osake wo nomimasen.",
-          "english": "I don't drink alcohol."
-        },
-        "past_pos": {
-          "japanese": "昨日、牛乳を飲みました。",
-          "romaji": "Kinou, gyuunyuu wo nomimashita.",
-          "english": "I drank milk yesterday."
-        },
-        "past_neg": {
-          "japanese": "今日は水を飲みませんでした。",
-          "romaji": "Kyou wa mizu wo nomimasen deshita.",
-          "english": "I didn't drink water today."
-        }
+        "present_pos": { "japanese": "この道はとても危ないです。", "romaji": "Kono michi wa totemo abunai desu.", "english": "This road is very dangerous." },
+        "present_neg": { "japanese": "その公園は危なくないです。", "romaji": "Sono kouen wa abunakunai desu.", "english": "That park is not dangerous." },
+        "past_pos":    { "japanese": "昨日の嵐はとても危なかったです。", "romaji": "Kinou no arashi wa totemo abunakatta desu.", "english": "Yesterday's storm was very dangerous." },
+        "past_neg":    { "japanese": "子供の頃、この川は危なくなかったです。", "romaji": "Kodomo no koro, kono kawa wa abunakunakatta desu.", "english": "When I was a child, this river wasn't dangerous." }
       }
     },
     {
-      "word_id": "n5_064",
-      "word": "行く",
+      "word_id": "n5_003",
+      "word": "あっち",
       "sentences": {
-        "present_pos": {
-          "japanese": "毎日学校に行きます。",
-          "romaji": "Mainichi gakkou ni ikimasu.",
-          "english": "I go to school every day."
-        },
-        "present_neg": {
-          "japanese": "今日は学校に行きません。",
-          "romaji": "Kyou wa gakkou ni ikimasen.",
-          "english": "I don't go to school today."
-        },
-        "past_pos": {
-          "japanese": "昨日、図書館に行きました。",
-          "romaji": "Kinou, toshokan ni ikimashita.",
-          "english": "I went to the library yesterday."
-        },
-        "past_neg": {
-          "japanese": "先週は公園に行きませんでした。",
-          "romaji": "Senshuu wa kouen ni ikimasen deshita.",
-          "english": "I didn't go to the park last week."
-        }
+        "present_pos": { "japanese": "お手洗いはあっちです。", "romaji": "Otearai wa acchi desu.", "english": "The restroom is over there." },
+        "present_neg": { "japanese": "病院はあっちじゃないです。", "romaji": "Byouin wa acchi ja nai desu.", "english": "The hospital is not over there." },
+        "past_pos":    { "japanese": "昨日、あっちの店に行きました。", "romaji": "Kinou, acchi no mise ni ikimashita.", "english": "I went to that store over there yesterday." },
+        "past_neg":    { "japanese": "鍵はあっちにありませんでした。", "romaji": "Kagi wa acchi ni arimasen deshita.", "english": "The key was not over there." }
       }
     },
     {
-      "word_id": "n5_095",
-      "word": "来る",
+      "word_id": "n5_004",
+      "word": "あちら",
       "sentences": {
-        "present_pos": {
-          "japanese": "友達が明日来ます。",
-          "romaji": "Tomodachi ga ashita kimasu.",
-          "english": "My friend will come tomorrow."
-        },
-        "present_neg": {
-          "japanese": "田中さんは今日来ません。",
-          "romaji": "Tanaka-san wa kyou kimasen.",
-          "english": "Mr. Tanaka is not coming today."
-        },
-        "past_pos": {
-          "japanese": "先生が教室に来ました。",
-          "romaji": "Sensei ga kyoushitsu ni kimashita.",
-          "english": "The teacher came to the classroom."
-        },
-        "past_neg": {
-          "japanese": "彼女は昨日パーティーに来ませんでした。",
-          "romaji": "Kanojo wa kinou paatii ni kimasen deshita.",
-          "english": "She didn't come to the party yesterday."
-        }
+        "present_pos": { "japanese": "トイレはあちらです。", "romaji": "Toire wa achira desu.", "english": "The restroom is over there." },
+        "present_neg": { "japanese": "受付はあちらじゃないです。", "romaji": "Uketsuke wa achira ja nai desu.", "english": "The reception is not over there." },
+        "past_pos":    { "japanese": "先生はあちらにいらっしゃいました。", "romaji": "Sensei wa achira ni irasshaimashita.", "english": "The teacher was over there." },
+        "past_neg":    { "japanese": "昨日、あちらのお店には行きませんでした。", "romaji": "Kinou, achira no omise ni wa ikimasen deshita.", "english": "I didn't go to that shop over there yesterday." }
       }
     },
     {
-      "word_id": "n5_108",
-      "word": "見る",
+      "word_id": "n5_005",
+      "word": "上げる",
       "sentences": {
-        "present_pos": {
-          "japanese": "毎晩テレビを見ます。",
-          "romaji": "Maiban terebi wo mimasu.",
-          "english": "I watch TV every night."
-        },
-        "present_neg": {
-          "japanese": "今日は映画を見ません。",
-          "romaji": "Kyou wa eiga wo mimasen.",
-          "english": "I'm not watching a movie today."
-        },
-        "past_pos": {
-          "japanese": "昨日、面白い映画を見ました。",
-          "romaji": "Kinou, omoshiroi eiga wo mimashita.",
-          "english": "I watched an interesting movie yesterday."
-        },
-        "past_neg": {
-          "japanese": "先週はニュースを見ませんでした。",
-          "romaji": "Senshuu wa nyuusu wo mimasen deshita.",
-          "english": "I didn't watch the news last week."
-        }
+        "present_pos": { "japanese": "友達に誕生日プレゼントを上げます。", "romaji": "Tomodachi ni tanjoubi purezento wo agemasu.", "english": "I give my friend a birthday present." },
+        "present_neg": { "japanese": "授業中は手を上げません。", "romaji": "Jugyou chuu wa te wo agemasen.", "english": "I don't raise my hand during class." },
+        "past_pos":    { "japanese": "友達にお菓子を上げました。", "romaji": "Tomodachi ni okashi wo agemashita.", "english": "I gave my friend some snacks." },
+        "past_neg":    { "japanese": "その授業では手を上げませんでした。", "romaji": "Sono jugyou de wa te wo agemasen deshita.", "english": "I didn't raise my hand in that class." },
+        "want_pos":    { "japanese": "彼女に花を上げたいです。", "romaji": "Kanojo ni hana wo agetai desu.", "english": "I want to give her flowers." },
+        "potential_pos":{ "japanese": "この重い箱は一人では上げられません。", "romaji": "Kono omoi hako wa hitori de wa ageraremasen.", "english": "I can't lift this heavy box alone." }
       }
     },
     {
-      "word_id": "n5_080",
-      "word": "書く",
+      "word_id": "n5_006",
+      "word": "赤",
       "sentences": {
-        "present_pos": {
-          "japanese": "毎日日記を書きます。",
-          "romaji": "Mainichi nikki wo kakimasu.",
-          "english": "I write a diary every day."
-        },
-        "present_neg": {
-          "japanese": "今日は手紙を書きません。",
-          "romaji": "Kyou wa tegami wo kakimasen.",
-          "english": "I'm not writing a letter today."
-        },
-        "past_pos": {
-          "japanese": "昨日、先生に手紙を書きました。",
-          "romaji": "Kinou, sensei ni tegami wo kakimashita.",
-          "english": "I wrote a letter to the teacher yesterday."
-        },
-        "past_neg": {
-          "japanese": "試験に答えを書きませんでした。",
-          "romaji": "Shiken ni kotae wo kakimasen deshita.",
-          "english": "I didn't write an answer on the exam."
-        }
+        "present_pos": { "japanese": "信号が赤です。", "romaji": "Shingou ga aka desu.", "english": "The traffic light is red." },
+        "present_neg": { "japanese": "私の車は赤じゃないです。", "romaji": "Watashi no kuruma wa aka ja nai desu.", "english": "My car is not red." },
+        "past_pos":    { "japanese": "昨日の夕焼けは綺麗な赤でした。", "romaji": "Kinou no yuuyake wa kirei na aka deshita.", "english": "Yesterday's sunset was a beautiful red." },
+        "past_neg":    { "japanese": "その旗は赤じゃなかったです。", "romaji": "Sono hata wa aka ja nakatta desu.", "english": "That flag was not red." }
       }
     },
     {
-      "word_id": "n5_171",
-      "word": "読む",
+      "word_id": "n5_007",
+      "word": "赤い",
       "sentences": {
-        "present_pos": {
-          "japanese": "寝る前に本を読みます。",
-          "romaji": "Neru mae ni hon wo yomimasu.",
-          "english": "I read a book before sleeping."
-        },
-        "present_neg": {
-          "japanese": "新聞を読みません。",
-          "romaji": "Shinbun wo yomimasen.",
-          "english": "I don't read newspapers."
-        },
-        "past_pos": {
-          "japanese": "昨日、面白い本を読みました。",
-          "romaji": "Kinou, omoshiroi hon wo yomimashita.",
-          "english": "I read an interesting book yesterday."
-        },
-        "past_neg": {
-          "japanese": "子供の時、漫画を読みませんでした。",
-          "romaji": "Kodomo no toki, manga wo yomimasen deshita.",
-          "english": "I didn't read manga when I was a child."
-        }
+        "present_pos": { "japanese": "このリンゴはとても赤いです。", "romaji": "Kono ringo wa totemo akai desu.", "english": "This apple is very red." },
+        "present_neg": { "japanese": "その花はあまり赤くないです。", "romaji": "Sono hana wa amari akakunai desu.", "english": "That flower is not very red." },
+        "past_pos":    { "japanese": "秋の葉はとても赤かったです。", "romaji": "Aki no ha wa totemo akakatta desu.", "english": "The autumn leaves were very red." },
+        "past_neg":    { "japanese": "その時はまだ葉が赤くなかったです。", "romaji": "Sono toki wa mada ha ga akakunakatta desu.", "english": "At that time the leaves weren't red yet." }
       }
     },
     {
-      "word_id": "n5_050",
-      "word": "話す",
+      "word_id": "n5_008",
+      "word": "明るい",
       "sentences": {
-        "present_pos": {
-          "japanese": "友達と日本語で話します。",
-          "romaji": "Tomodachi to nihongo de hanashimasu.",
-          "english": "I speak Japanese with my friend."
-        },
-        "present_neg": {
-          "japanese": "英語があまり話しません。",
-          "romaji": "Eigo ga amari hanashimasen.",
-          "english": "I don't speak English much."
-        },
-        "past_pos": {
-          "japanese": "先生と日本語で話しました。",
-          "romaji": "Sensei to nihongo de hanashimashita.",
-          "english": "I spoke Japanese with the teacher."
-        },
-        "past_neg": {
-          "japanese": "その人と話しませんでした。",
-          "romaji": "Sono hito to hanashimasen deshita.",
-          "english": "I didn't speak with that person."
-        }
+        "present_pos": { "japanese": "この部屋はとても明るいです。", "romaji": "Kono heya wa totemo akarui desu.", "english": "This room is very bright." },
+        "present_neg": { "japanese": "夜の道はあまり明るくないです。", "romaji": "Yoru no michi wa amari akarukunai desu.", "english": "The road at night is not very bright." },
+        "past_pos":    { "japanese": "晴れていたので外がとても明るかったです。", "romaji": "Harete ita node soto ga totemo akarukatta desu.", "english": "It was very bright outside because it was sunny." },
+        "past_neg":    { "japanese": "以前、この部屋は明るくなかったです。", "romaji": "Izen, kono heya wa akarukunakatta desu.", "english": "This room was not bright before." }
       }
     },
     {
-      "word_id": "n5_088",
-      "word": "聞く",
+      "word_id": "n5_009",
+      "word": "開ける",
       "sentences": {
-        "present_pos": {
-          "japanese": "毎日音楽を聞きます。",
-          "romaji": "Mainichi ongaku wo kikimasu.",
-          "english": "I listen to music every day."
-        },
-        "present_neg": {
-          "japanese": "ラジオを聞きません。",
-          "romaji": "Rajio wo kikimasen.",
-          "english": "I don't listen to the radio."
-        },
-        "past_pos": {
-          "japanese": "先生に質問を聞きました。",
-          "romaji": "Sensei ni shitsumon wo kikimashita.",
-          "english": "I asked the teacher a question."
-        },
-        "past_neg": {
-          "japanese": "彼の話を聞きませんでした。",
-          "romaji": "Kare no hanashi wo kikimasen deshita.",
-          "english": "I didn't listen to his story."
-        }
+        "present_pos": { "japanese": "毎朝窓を開けます。", "romaji": "Maiasa mado wo akemasu.", "english": "I open the window every morning." },
+        "present_neg": { "japanese": "寒い日は窓を開けません。", "romaji": "Samui hi wa mado wo akemasen.", "english": "I don't open the window on cold days." },
+        "past_pos":    { "japanese": "ドアを開けて部屋に入りました。", "romaji": "Doa wo akete heya ni hairimashita.", "english": "I opened the door and entered the room." },
+        "past_neg":    { "japanese": "昨日は窓を開けませんでした。", "romaji": "Kinou wa mado wo akemasen deshita.", "english": "I didn't open the window yesterday." },
+        "want_pos":    { "japanese": "暑いので窓を開けたいです。", "romaji": "Atsui node mado wo aketai desu.", "english": "I want to open the window because it's hot." },
+        "potential_pos":{ "japanese": "この瓶は開けられますか？", "romaji": "Kono bin wa akeraremasu ka?", "english": "Can you open this bottle?" }
       }
     },
     {
-      "word_id": "n5_079",
-      "word": "買う",
+      "word_id": "n5_010",
+      "word": "秋",
       "sentences": {
-        "present_pos": {
-          "japanese": "スーパーで野菜を買います。",
-          "romaji": "Suupaa de yasai wo kaimasu.",
-          "english": "I buy vegetables at the supermarket."
-        },
-        "present_neg": {
-          "japanese": "高い服を買いません。",
-          "romaji": "Takai fuku wo kaimasen.",
-          "english": "I don't buy expensive clothes."
-        },
-        "past_pos": {
-          "japanese": "昨日、新しい本を買いました。",
-          "romaji": "Kinou, atarashii hon wo kaimashita.",
-          "english": "I bought a new book yesterday."
-        },
-        "past_neg": {
-          "japanese": "先月、何も買いませんでした。",
-          "romaji": "Sengetsu, nani mo kaimasen deshita.",
-          "english": "I didn't buy anything last month."
-        }
+        "present_pos": { "japanese": "今は秋です。", "romaji": "Ima wa aki desu.", "english": "It is autumn now." },
+        "present_neg": { "japanese": "今は秋じゃないです。春です。", "romaji": "Ima wa aki ja nai desu. Haru desu.", "english": "It is not autumn now. It is spring." },
+        "past_pos":    { "japanese": "去年の秋は天気がよかったです。", "romaji": "Kyonen no aki wa tenki ga yokatta desu.", "english": "Last autumn's weather was good." },
+        "past_neg":    { "japanese": "去年の秋はあまり涼しくなかったです。", "romaji": "Kyonen no aki wa amari suzushikunakatta desu.", "english": "Last autumn wasn't very cool." }
       }
     },
     {
-      "word_id": "n5_081",
-      "word": "帰る",
+      "word_id": "n5_011",
+      "word": "開く",
       "sentences": {
-        "present_pos": {
-          "japanese": "六時に家に帰ります。",
-          "romaji": "Rokuji ni ie ni kaerimasu.",
-          "english": "I return home at six o'clock."
-        },
-        "present_neg": {
-          "japanese": "今日は早く帰りません。",
-          "romaji": "Kyou wa hayaku kaerimasen.",
-          "english": "I'm not going home early today."
-        },
-        "past_pos": {
-          "japanese": "昨日、早く家に帰りました。",
-          "romaji": "Kinou, hayaku ie ni kaerimashita.",
-          "english": "I returned home early yesterday."
-        },
-        "past_neg": {
-          "japanese": "先週の金曜日は帰りませんでした。",
-          "romaji": "Senshuu no kin'youbi wa kaerimasen deshita.",
-          "english": "I didn't go home last Friday."
-        }
+        "present_pos": { "japanese": "この店は九時に開きます。", "romaji": "Kono mise wa kuji ni akimasu.", "english": "This shop opens at nine." },
+        "present_neg": { "japanese": "日曜日はその図書館が開きません。", "romaji": "Nichiyoubi wa sono toshokan ga akimasen.", "english": "That library doesn't open on Sundays." },
+        "past_pos":    { "japanese": "昨日、店は八時に開きました。", "romaji": "Kinou, mise wa hachiji ni akimashita.", "english": "The shop opened at eight yesterday." },
+        "past_neg":    { "japanese": "祝日はドアが開きませんでした。", "romaji": "Shukujitsu wa doa ga akimasen deshita.", "english": "The door didn't open on the holiday." }
       }
     },
     {
-      "word_id": "n5_127",
-      "word": "起きる",
+      "word_id": "n5_012",
+      "word": "甘い",
       "sentences": {
-        "present_pos": {
-          "japanese": "毎朝七時に起きます。",
-          "romaji": "Maiasa shichiji ni okimasu.",
-          "english": "I wake up at seven every morning."
-        },
-        "present_neg": {
-          "japanese": "休みの日は早く起きません。",
-          "romaji": "Yasumi no hi wa hayaku okimasen.",
-          "english": "I don't wake up early on days off."
-        },
-        "past_pos": {
-          "japanese": "今朝、六時に起きました。",
-          "romaji": "Kesa, rokuji ni okimashita.",
-          "english": "I woke up at six this morning."
-        },
-        "past_neg": {
-          "japanese": "昨日は遅くまで起きませんでした。",
-          "romaji": "Kinou wa osoku made okimasen deshita.",
-          "english": "I didn't stay up late yesterday."
-        }
+        "present_pos": { "japanese": "このケーキはとても甘いです。", "romaji": "Kono keeki wa totemo amai desu.", "english": "This cake is very sweet." },
+        "present_neg": { "japanese": "この紅茶はあまり甘くないです。", "romaji": "Kono koucha wa amari amakunai desu.", "english": "This black tea is not very sweet." },
+        "past_pos":    { "japanese": "そのアイスクリームはとても甘かったです。", "romaji": "Sono aisu kuriimu wa totemo amakatta desu.", "english": "That ice cream was very sweet." },
+        "past_neg":    { "japanese": "子供の頃、果物はそれほど甘くなかったです。", "romaji": "Kodomo no koro, kudamono wa sorehodo amakunakatta desu.", "english": "When I was a child, fruit wasn't that sweet." }
+      }
+    },
+    {
+      "word_id": "n5_013",
+      "word": "雨",
+      "sentences": {
+        "present_pos": { "japanese": "今日は雨です。", "romaji": "Kyou wa ame desu.", "english": "It is rainy today." },
+        "present_neg": { "japanese": "今日は雨じゃないです。", "romaji": "Kyou wa ame ja nai desu.", "english": "It is not rainy today." },
+        "past_pos":    { "japanese": "昨日は一日中雨でした。", "romaji": "Kinou wa ichinichijuu ame deshita.", "english": "It rained all day yesterday." },
+        "past_neg":    { "japanese": "先週の月曜日は雨じゃなかったです。", "romaji": "Senshuu no getsuyoubi wa ame ja nakatta desu.", "english": "Last Monday wasn't rainy." }
+      }
+    },
+    {
+      "word_id": "n5_014",
+      "word": "飴",
+      "sentences": {
+        "present_pos": { "japanese": "バッグの中に飴があります。", "romaji": "Baggu no naka ni ame ga arimasu.", "english": "There is candy in my bag." },
+        "present_neg": { "japanese": "今、飴がありません。", "romaji": "Ima, ame ga arimasen.", "english": "I don't have any candy now." },
+        "past_pos":    { "japanese": "子供に飴を上げました。", "romaji": "Kodomo ni ame wo agemashita.", "english": "I gave candy to the child." },
+        "past_neg":    { "japanese": "昨日は飴を食べませんでした。", "romaji": "Kinou wa ame wo tabemasen deshita.", "english": "I didn't eat candy yesterday." }
       }
     },
     {
       "word_id": "n5_015",
-      "word": "歩く",
+      "word": "あなた",
       "sentences": {
-        "present_pos": {
-          "japanese": "毎日公園を歩きます。",
-          "romaji": "Mainichi kouen wo arukimasu.",
-          "english": "I walk in the park every day."
-        },
-        "present_neg": {
-          "japanese": "雨の日は歩きません。",
-          "romaji": "Ame no hi wa arukimasen.",
-          "english": "I don't walk on rainy days."
-        },
-        "past_pos": {
-          "japanese": "昨日、駅まで歩きました。",
-          "romaji": "Kinou, eki made arukimashita.",
-          "english": "I walked to the station yesterday."
-        },
-        "past_neg": {
-          "japanese": "昨日は遠くて歩きませんでした。",
-          "romaji": "Kinou wa tookute arukimasen deshita.",
-          "english": "I didn't walk because it was far yesterday."
-        }
+        "present_pos": { "japanese": "あなたは学生ですか？", "romaji": "Anata wa gakusei desu ka?", "english": "Are you a student?" },
+        "present_neg": { "japanese": "あなたは先生じゃないですよね。", "romaji": "Anata wa sensei ja nai desu yo ne.", "english": "You are not a teacher, right?" },
+        "past_pos":    { "japanese": "あなたが昨日ここにいましたか？", "romaji": "Anata ga kinou koko ni imashita ka?", "english": "Were you here yesterday?" },
+        "past_neg":    { "japanese": "あなたは昨日のパーティーにいませんでしたね。", "romaji": "Anata wa kinou no paatii ni imasen deshita ne.", "english": "You weren't at yesterday's party, were you?" }
       }
     },
     {
-      "word_id": "n5_141",
-      "word": "住む",
+      "word_id": "n5_016",
+      "word": "姉",
       "sentences": {
-        "present_pos": {
-          "japanese": "東京に住んでいます。",
-          "romaji": "Toukyou ni sunde imasu.",
-          "english": "I live in Tokyo."
-        },
-        "present_neg": {
-          "japanese": "大阪には住んでいません。",
-          "romaji": "Oosaka ni wa sunde imasen.",
-          "english": "I don't live in Osaka."
-        },
-        "past_pos": {
-          "japanese": "子供の頃、田舎に住んでいました。",
-          "romaji": "Kodomo no koro, inaka ni sunde imashita.",
-          "english": "I lived in the countryside when I was a child."
-        },
-        "past_neg": {
-          "japanese": "以前はアパートに住んでいませんでした。",
-          "romaji": "Izen wa apaato ni sunde imasen deshita.",
-          "english": "I didn't live in an apartment before."
-        }
+        "present_pos": { "japanese": "私には姉がいます。", "romaji": "Watashi ni wa ane ga imasu.", "english": "I have an older sister." },
+        "present_neg": { "japanese": "私には姉がいません。", "romaji": "Watashi ni wa ane ga imasen.", "english": "I don't have an older sister." },
+        "past_pos":    { "japanese": "姉は昨日、東京に行きました。", "romaji": "Ane wa kinou, Toukyou ni ikimashita.", "english": "My older sister went to Tokyo yesterday." },
+        "past_neg":    { "japanese": "姉は昨日は家に帰りませんでした。", "romaji": "Ane wa kinou wa ie ni kaerimasen deshita.", "english": "My older sister didn't come home yesterday." }
       }
     },
     {
-      "word_id": "n5_159",
-      "word": "使う",
+      "word_id": "n5_017",
+      "word": "兄",
       "sentences": {
-        "present_pos": {
-          "japanese": "毎日パソコンを使います。",
-          "romaji": "Mainichi pasokon wo tsukaimasu.",
-          "english": "I use a computer every day."
-        },
-        "present_neg": {
-          "japanese": "この辞書を使いません。",
-          "romaji": "Kono jisho wo tsukaimasen.",
-          "english": "I don't use this dictionary."
-        },
-        "past_pos": {
-          "japanese": "昨日、電子レンジを使いました。",
-          "romaji": "Kinou, denshi renji wo tsukaimashita.",
-          "english": "I used the microwave yesterday."
-        },
-        "past_neg": {
-          "japanese": "昨日はスマホを使いませんでした。",
-          "romaji": "Kinou wa sumaho wo tsukaimasen deshita.",
-          "english": "I didn't use my smartphone yesterday."
-        }
+        "present_pos": { "japanese": "兄は会社員です。", "romaji": "Ani wa kaishain desu.", "english": "My older brother is a company employee." },
+        "present_neg": { "japanese": "兄は今家にいません。", "romaji": "Ani wa ima ie ni imasen.", "english": "My older brother is not home now." },
+        "past_pos":    { "japanese": "兄は昨日友達と出かけました。", "romaji": "Ani wa kinou tomodachi to dekakemashita.", "english": "My older brother went out with his friend yesterday." },
+        "past_neg":    { "japanese": "兄は子供の頃、あまり勉強しませんでした。", "romaji": "Ani wa kodomo no koro, amari benkyou shimasen deshita.", "english": "My older brother didn't study much when he was a child." }
       }
     },
     {
-      "word_id": "n5_160",
-      "word": "作る",
+      "word_id": "n5_018",
+      "word": "あの",
       "sentences": {
-        "present_pos": {
-          "japanese": "毎週末、料理を作ります。",
-          "romaji": "Maishuuryoku, ryouri wo tsukurimasu.",
-          "english": "I cook every weekend."
-        },
-        "present_neg": {
-          "japanese": "お菓子を作りません。",
-          "romaji": "Okashi wo tsukurimasen.",
-          "english": "I don't make sweets."
-        },
-        "past_pos": {
-          "japanese": "昨日、カレーを作りました。",
-          "romaji": "Kinou, karee wo tsukurimashita.",
-          "english": "I made curry yesterday."
-        },
-        "past_neg": {
-          "japanese": "先週は弁当を作りませんでした。",
-          "romaji": "Senshuu wa bentou wo tsukurimasen deshita.",
-          "english": "I didn't make a lunch box last week."
-        }
+        "present_pos": { "japanese": "あの山はとても高いです。", "romaji": "Ano yama wa totemo takai desu.", "english": "That mountain over there is very tall." },
+        "present_neg": { "japanese": "あの店はあまり高くないです。", "romaji": "Ano mise wa amari takakunai desu.", "english": "That store over there is not very expensive." },
+        "past_pos":    { "japanese": "あの人は昨日ここに来ました。", "romaji": "Ano hito wa kinou koko ni kimashita.", "english": "That person over there came here yesterday." },
+        "past_neg":    { "japanese": "あの映画は面白くなかったです。", "romaji": "Ano eiga wa omoshirokunakatta desu.", "english": "That movie wasn't interesting." }
       }
     },
     {
-      "word_id": "n5_167",
-      "word": "分かる",
+      "word_id": "n5_019",
+      "word": "青",
       "sentences": {
-        "present_pos": {
-          "japanese": "この問題の答えが分かります。",
-          "romaji": "Kono mondai no kotae ga wakarimasu.",
-          "english": "I understand the answer to this problem."
-        },
-        "present_neg": {
-          "japanese": "この漢字の読み方が分かりません。",
-          "romaji": "Kono kanji no yomikata ga wakarimasen.",
-          "english": "I don't know how to read this kanji."
-        },
-        "past_pos": {
-          "japanese": "先生の説明がよく分かりました。",
-          "romaji": "Sensei no setsumei ga yoku wakarimashita.",
-          "english": "I understood the teacher's explanation well."
-        },
-        "past_neg": {
-          "japanese": "その映画の意味が分かりませんでした。",
-          "romaji": "Sono eiga no imi ga wakarimasen deshita.",
-          "english": "I didn't understand the meaning of that movie."
-        }
+        "present_pos": { "japanese": "空の色は青です。", "romaji": "Sora no iro wa ao desu.", "english": "The color of the sky is blue." },
+        "present_neg": { "japanese": "私のお気に入りの色は青じゃないです。", "romaji": "Watashi no okiniiri no iro wa ao ja nai desu.", "english": "My favorite color is not blue." },
+        "past_pos":    { "japanese": "その服の色は綺麗な青でした。", "romaji": "Sono fuku no iro wa kirei na ao deshita.", "english": "The color of those clothes was a beautiful blue." },
+        "past_neg":    { "japanese": "その絵の背景は青じゃなかったです。", "romaji": "Sono e no haikei wa ao ja nakatta desu.", "english": "The background of that painting wasn't blue." }
       }
     },
     {
-      "word_id": "n5_142",
-      "word": "する",
+      "word_id": "n5_020",
+      "word": "青い",
       "sentences": {
-        "present_pos": {
-          "japanese": "毎日運動をします。",
-          "romaji": "Mainichi undou wo shimasu.",
-          "english": "I exercise every day."
-        },
-        "present_neg": {
-          "japanese": "週末は仕事をしません。",
-          "romaji": "Shuumatsu wa shigoto wo shimasen.",
-          "english": "I don't work on weekends."
-        },
-        "past_pos": {
-          "japanese": "昨日、掃除をしました。",
-          "romaji": "Kinou, souji wo shimashita.",
-          "english": "I cleaned the house yesterday."
-        },
-        "past_neg": {
-          "japanese": "先週は宿題をしませんでした。",
-          "romaji": "Senshuu wa shukudai wo shimasen deshita.",
-          "english": "I didn't do homework last week."
-        }
+        "present_pos": { "japanese": "今日の空はとても青いです。", "romaji": "Kyou no sora wa totemo aoi desu.", "english": "Today's sky is very blue." },
+        "present_neg": { "japanese": "曇りの日は空があまり青くないです。", "romaji": "Kumori no hi wa sora ga amari aokunai desu.", "english": "On cloudy days the sky is not very blue." },
+        "past_pos":    { "japanese": "昨日の海はとても青かったです。", "romaji": "Kinou no umi wa totemo aokatta desu.", "english": "The sea was very blue yesterday." },
+        "past_neg":    { "japanese": "昨日は空があまり青くなかったです。", "romaji": "Kinou wa sora ga amari aokunakatta desu.", "english": "Yesterday the sky wasn't very blue." }
       }
     },
     {
-      "word_id": "n5_131",
-      "word": "泳ぐ",
+      "word_id": "n5_021",
+      "word": "アパート",
       "sentences": {
-        "present_pos": {
-          "japanese": "夏はプールで泳ぎます。",
-          "romaji": "Natsu wa puuru de oyogimasu.",
-          "english": "I swim in the pool in summer."
-        },
-        "present_neg": {
-          "japanese": "冬は海で泳ぎません。",
-          "romaji": "Fuyu wa umi de oyogimasen.",
-          "english": "I don't swim in the sea in winter."
-        },
-        "past_pos": {
-          "japanese": "昨日、プールで泳ぎました。",
-          "romaji": "Kinou, puuru de oyogimashita.",
-          "english": "I swam in the pool yesterday."
-        },
-        "past_neg": {
-          "japanese": "子供の頃、泳ぎませんでした。",
-          "romaji": "Kodomo no koro, oyogimasen deshita.",
-          "english": "I didn't swim when I was a child."
-        }
+        "present_pos": { "japanese": "私はアパートに住んでいます。", "romaji": "Watashi wa apaato ni sunde imasu.", "english": "I live in an apartment." },
+        "present_neg": { "japanese": "今は一軒家に住んでいて、アパートに住んでいません。", "romaji": "Ima wa ikkenya ni sunde ite, apaato ni sunde imasen.", "english": "I live in a house now, not an apartment." },
+        "past_pos":    { "japanese": "学生の頃、アパートに住んでいました。", "romaji": "Gakusei no koro, apaato ni sunde imashita.", "english": "When I was a student, I lived in an apartment." },
+        "past_neg":    { "japanese": "以前はアパートに住んでいませんでした。", "romaji": "Izen wa apaato ni sunde imasen deshita.", "english": "I didn't live in an apartment before." }
       }
     },
     {
-      "word_id": "n5_106",
-      "word": "待つ",
+      "word_id": "n5_022",
+      "word": "洗う",
       "sentences": {
-        "present_pos": {
-          "japanese": "バス停でバスを待ちます。",
-          "romaji": "Basutei de basu wo machimasu.",
-          "english": "I wait for the bus at the bus stop."
-        },
-        "present_neg": {
-          "japanese": "長い時間は待ちません。",
-          "romaji": "Nagai jikan wa machimasen.",
-          "english": "I don't wait for a long time."
-        },
-        "past_pos": {
-          "japanese": "三十分友達を待ちました。",
-          "romaji": "Sanjuppun tomodachi wo machimashita.",
-          "english": "I waited for my friend for 30 minutes."
-        },
-        "past_neg": {
-          "japanese": "昨日は誰も待ちませんでした。",
-          "romaji": "Kinou wa dare mo machimasen deshita.",
-          "english": "I didn't wait for anyone yesterday."
-        }
-      }
-    },
-    {
-      "word_id": "n5_147",
-      "word": "高い",
-      "sentences": {
-        "present_pos": {
-          "japanese": "この店の料理は高いです。",
-          "romaji": "Kono mise no ryouri wa takai desu.",
-          "english": "The food at this restaurant is expensive."
-        },
-        "present_neg": {
-          "japanese": "このスーパーはあまり高くないです。",
-          "romaji": "Kono suupaa wa amari takakunai desu.",
-          "english": "This supermarket is not that expensive."
-        },
-        "past_pos": {
-          "japanese": "昨日買ったコートは高かったです。",
-          "romaji": "Kinou katta kooto wa takakatta desu.",
-          "english": "The coat I bought yesterday was expensive."
-        },
-        "past_neg": {
-          "japanese": "このレストランは以前高くなかったです。",
-          "romaji": "Kono resutoran wa izen takakunakatta desu.",
-          "english": "This restaurant wasn't expensive before."
-        }
+        "present_pos": { "japanese": "毎日顔を洗います。", "romaji": "Mainichi kao wo araimasu.", "english": "I wash my face every day." },
+        "present_neg": { "japanese": "今日は車を洗いません。", "romaji": "Kyou wa kuruma wo araimasen.", "english": "I'm not washing the car today." },
+        "past_pos":    { "japanese": "食事の後、皿を洗いました。", "romaji": "Shokuji no ato, sara wo araimashita.", "english": "I washed the dishes after the meal." },
+        "past_neg":    { "japanese": "昨日は洗濯物を洗いませんでした。", "romaji": "Kinou wa sentakumono wo araimasen deshita.", "english": "I didn't do the laundry yesterday." },
+        "want_pos":    { "japanese": "今すぐ手を洗いたいです。", "romaji": "Ima sugu te wo araitai desu.", "english": "I want to wash my hands right now." },
+        "potential_pos":{ "japanese": "この汚れは洗えますか？", "romaji": "Kono yogore wa araemasu ka?", "english": "Can this stain be washed off?" }
       }
     },
     {
       "word_id": "n5_023",
-      "word": "新しい",
+      "word": "あれ",
       "sentences": {
-        "present_pos": {
-          "japanese": "私の携帯電話は新しいです。",
-          "romaji": "Watashi no keitai denwa wa atarashii desu.",
-          "english": "My mobile phone is new."
-        },
-        "present_neg": {
-          "japanese": "この建物はあまり新しくないです。",
-          "romaji": "Kono tatemono wa amari atarashikunai desu.",
-          "english": "This building is not very new."
-        },
-        "past_pos": {
-          "japanese": "去年、新しい車を買いました。",
-          "romaji": "Kyonen, atarashii kuruma wo kaimashita.",
-          "english": "I bought a new car last year."
-        },
-        "past_neg": {
-          "japanese": "その店のメニューは新しくなかったです。",
-          "romaji": "Sono mise no menyuu wa atarashikunakatta desu.",
-          "english": "The menu at that shop wasn't new."
-        }
+        "present_pos": { "japanese": "あれは私のかばんです。", "romaji": "Are wa watashi no kaban desu.", "english": "That over there is my bag." },
+        "present_neg": { "japanese": "あれは私の傘じゃないです。", "romaji": "Are wa watashi no kasa ja nai desu.", "english": "That over there is not my umbrella." },
+        "past_pos":    { "japanese": "あれが先生の話していた本でした。", "romaji": "Are ga sensei no hanashite ita hon deshita.", "english": "That was the book the teacher was talking about." },
+        "past_neg":    { "japanese": "あれは私の自転車じゃなかったです。", "romaji": "Are wa watashi no jitensha ja nakatta desu.", "english": "That over there wasn't my bicycle." }
       }
     },
     {
-      "word_id": "n5_121",
-      "word": "大きい",
+      "word_id": "n5_024",
+      "word": "ある",
       "sentences": {
-        "present_pos": {
-          "japanese": "あの山はとても大きいです。",
-          "romaji": "Ano yama wa totemo ookii desu.",
-          "english": "That mountain is very big."
-        },
-        "present_neg": {
-          "japanese": "私の部屋はあまり大きくないです。",
-          "romaji": "Watashi no heya wa amari ookikunai desu.",
-          "english": "My room is not very big."
-        },
-        "past_pos": {
-          "japanese": "子供の頃、あの木は大きかったです。",
-          "romaji": "Kodomo no koro, ano ki wa ookikatta desu.",
-          "english": "When I was a child, that tree was big."
-        },
-        "past_neg": {
-          "japanese": "昔、この街はそれほど大きくなかったです。",
-          "romaji": "Mukashi, kono machi wa sorehodo ookikunakatta desu.",
-          "english": "In the past, this city wasn't that big."
-        }
+        "present_pos": { "japanese": "机の上に本があります。", "romaji": "Tsukue no ue ni hon ga arimasu.", "english": "There is a book on the desk." },
+        "present_neg": { "japanese": "財布の中にお金がありません。", "romaji": "Saifu no naka ni okane ga arimasen.", "english": "There is no money in my wallet." },
+        "past_pos":    { "japanese": "テーブルの上にリンゴがありました。", "romaji": "Teeburu no ue ni ringo ga arimashita.", "english": "There was an apple on the table." },
+        "past_neg":    { "japanese": "昔、この辺に公園がありませんでした。", "romaji": "Mukashi, kono hen ni kouen ga arimasen deshita.", "english": "There wasn't a park around here in the past." }
       }
     },
     {
-      "word_id": "n5_114",
-      "word": "難しい",
+      "word_id": "n5_025",
+      "word": "歩く",
       "sentences": {
-        "present_pos": {
-          "japanese": "この試験はとても難しいです。",
-          "romaji": "Kono shiken wa totemo muzukashii desu.",
-          "english": "This exam is very difficult."
-        },
-        "present_neg": {
-          "japanese": "この本はあまり難しくないです。",
-          "romaji": "Kono hon wa amari muzukashikunai desu.",
-          "english": "This book is not very difficult."
-        },
-        "past_pos": {
-          "japanese": "昨日の宿題は難しかったです。",
-          "romaji": "Kinou no shukudai wa muzukashikatta desu.",
-          "english": "Yesterday's homework was difficult."
-        },
-        "past_neg": {
-          "japanese": "最初は日本語は難しくなかったです。",
-          "romaji": "Saisho wa nihongo wa muzukashikunakatta desu.",
-          "english": "At first, Japanese wasn't difficult."
-        }
+        "present_pos": { "japanese": "毎日駅まで歩きます。", "romaji": "Mainichi eki made arukimasu.", "english": "I walk to the station every day." },
+        "present_neg": { "japanese": "雨の日は歩きません。", "romaji": "Ame no hi wa arukimasen.", "english": "I don't walk on rainy days." },
+        "past_pos":    { "japanese": "昨日、公園を歩きました。", "romaji": "Kinou, kouen wo arukimashita.", "english": "I walked in the park yesterday." },
+        "past_neg":    { "japanese": "足が痛くて歩きませんでした。", "romaji": "Ashi ga itakute arukimasen deshita.", "english": "I didn't walk because my feet were sore." }
       }
     },
     {
-      "word_id": "n5_043",
-      "word": "元気",
+      "word_id": "n5_026",
+      "word": "朝",
       "sentences": {
-        "present_pos": {
-          "japanese": "今日は元気です。",
-          "romaji": "Kyou wa genki desu.",
-          "english": "I am fine today."
-        },
-        "present_neg": {
-          "japanese": "今日は少し元気じゃないです。",
-          "romaji": "Kyou wa sukoshi genki ja nai desu.",
-          "english": "I'm not feeling very well today."
-        },
-        "past_pos": {
-          "japanese": "昨日、とても元気でした。",
-          "romaji": "Kinou, totemo genki deshita.",
-          "english": "I was very energetic yesterday."
-        },
-        "past_neg": {
-          "japanese": "先週は風邪で元気じゃなかったです。",
-          "romaji": "Senshuu wa kaze de genki ja nakatta desu.",
-          "english": "I wasn't well last week because of a cold."
-        }
+        "present_pos": { "japanese": "毎朝六時に起きます。", "romaji": "Maiasa rokuji ni okimasu.", "english": "I wake up at six every morning." },
+        "present_neg": { "japanese": "今日の朝はあまり時間がありません。", "romaji": "Kyou no asa wa amari jikan ga arimasen.", "english": "I don't have much time this morning." },
+        "past_pos":    { "japanese": "今朝は早く起きました。", "romaji": "Kesa wa hayaku okimashita.", "english": "I woke up early this morning." },
+        "past_neg":    { "japanese": "今朝は朝ご飯を食べませんでした。", "romaji": "Kesa wa asagohan wo tabemasen deshita.", "english": "I didn't eat breakfast this morning." }
       }
     },
     {
-      "word_id": "n5_138",
-      "word": "静か",
+      "word_id": "n5_027",
+      "word": "朝ご飯",
       "sentences": {
-        "present_pos": {
-          "japanese": "この図書館はとても静かです。",
-          "romaji": "Kono toshokan wa totemo shizuka desu.",
-          "english": "This library is very quiet."
-        },
-        "present_neg": {
-          "japanese": "夜の街は静かじゃないです。",
-          "romaji": "Yoru no machi wa shizuka ja nai desu.",
-          "english": "The city at night is not quiet."
-        },
-        "past_pos": {
-          "japanese": "昨日の授業はとても静かでした。",
-          "romaji": "Kinou no jugyou wa totemo shizuka deshita.",
-          "english": "Yesterday's class was very quiet."
-        },
-        "past_neg": {
-          "japanese": "子供の頃、この村は静かじゃなかったです。",
-          "romaji": "Kodomo no koro, kono mura wa shizuka ja nakatta desu.",
-          "english": "When I was a child, this village wasn't quiet."
-        }
+        "present_pos": { "japanese": "毎日朝ご飯を食べます。", "romaji": "Mainichi asagohan wo tabemasu.", "english": "I eat breakfast every day." },
+        "present_neg": { "japanese": "今日は朝ご飯を食べません。", "romaji": "Kyou wa asagohan wo tabemasen.", "english": "I'm not eating breakfast today." },
+        "past_pos":    { "japanese": "今朝、パンを朝ご飯に食べました。", "romaji": "Kesa, pan wo asagohan ni tabemashita.", "english": "I ate bread for breakfast this morning." },
+        "past_neg":    { "japanese": "昨日は忙しくて朝ご飯を食べませんでした。", "romaji": "Kinou wa isogashikute asagohan wo tabemasen deshita.", "english": "I didn't eat breakfast yesterday because I was busy." }
       }
     },
     {
-      "word_id": "n5_140",
-      "word": "好き",
+      "word_id": "n5_028",
+      "word": "明後日",
       "sentences": {
-        "present_pos": {
-          "japanese": "私は猫が好きです。",
-          "romaji": "Watashi wa neko ga suki desu.",
-          "english": "I like cats."
-        },
-        "present_neg": {
-          "japanese": "辛い食べ物が好きじゃないです。",
-          "romaji": "Karai tabemono ga suki ja nai desu.",
-          "english": "I don't like spicy food."
-        },
-        "past_pos": {
-          "japanese": "子供の頃、アニメが好きでした。",
-          "romaji": "Kodomo no koro, anime ga suki deshita.",
-          "english": "When I was a child, I liked anime."
-        },
-        "past_neg": {
-          "japanese": "昔は野菜が好きじゃなかったです。",
-          "romaji": "Mukashi wa yasai ga suki ja nakatta desu.",
-          "english": "In the past, I didn't like vegetables."
-        }
+        "present_pos": { "japanese": "明後日は日曜日です。", "romaji": "Asatte wa nichiyoubi desu.", "english": "The day after tomorrow is Sunday." },
+        "present_neg": { "japanese": "明後日は学校がありません。", "romaji": "Asatte wa gakkou ga arimasen.", "english": "There is no school the day after tomorrow." },
+        "past_pos":    { "japanese": "明後日に予定があると言っていました。", "romaji": "Asatte ni yotei ga aru to itte imashita.", "english": "He said he had plans the day after tomorrow." },
+        "past_neg":    { "japanese": "明後日の予定はまだ決まっていませんでした。", "romaji": "Asatte no yotei wa mada kimatte imasen deshita.", "english": "The plans for the day after tomorrow hadn't been decided yet." }
       }
     },
     {
-      "word_id": "n5_148",
-      "word": "楽しい",
+      "word_id": "n5_029",
+      "word": "足",
       "sentences": {
-        "present_pos": {
-          "japanese": "日本語の勉強は楽しいです。",
-          "romaji": "Nihongo no benkyou wa tanoshii desu.",
-          "english": "Studying Japanese is fun."
-        },
-        "present_neg": {
-          "japanese": "一人での旅行はあまり楽しくないです。",
-          "romaji": "Hitori de no ryokou wa amari tanoshikunai desu.",
-          "english": "Travelling alone is not very fun."
-        },
-        "past_pos": {
-          "japanese": "昨日のパーティーはとても楽しかったです。",
-          "romaji": "Kinou no paatii wa totemo tanoshikatta desu.",
-          "english": "Yesterday's party was very fun."
-        },
-        "past_neg": {
-          "japanese": "その授業はあまり楽しくなかったです。",
-          "romaji": "Sono jugyou wa amari tanoshikunakatta desu.",
-          "english": "That class wasn't very fun."
-        }
+        "present_pos": { "japanese": "足が痛いです。", "romaji": "Ashi ga itai desu.", "english": "My leg hurts." },
+        "present_neg": { "japanese": "今日は足は痛くないです。", "romaji": "Kyou wa ashi wa itakunai desu.", "english": "My leg doesn't hurt today." },
+        "past_pos":    { "japanese": "昨日、長く歩いて足が疲れました。", "romaji": "Kinou, nagaku aruite ashi ga tsukaremashita.", "english": "I walked a long time yesterday and my legs got tired." },
+        "past_neg":    { "japanese": "以前は足が痛くなかったです。", "romaji": "Izen wa ashi ga itakunakatta desu.", "english": "My legs weren't sore before." }
       }
     },
     {
-      "word_id": "n5_041",
-      "word": "学校",
+      "word_id": "n5_030",
+      "word": "明日",
       "sentences": {
-        "present_pos": {
-          "japanese": "私の学校は駅の近くにあります。",
-          "romaji": "Watashi no gakkou wa eki no chikaku ni arimasu.",
-          "english": "My school is near the station."
-        },
-        "present_neg": {
-          "japanese": "土曜日は学校がありません。",
-          "romaji": "Doyoubi wa gakkou ga arimasen.",
-          "english": "There is no school on Saturdays."
-        },
-        "past_pos": {
-          "japanese": "昨日、学校で友達に会いました。",
-          "romaji": "Kinou, gakkou de tomodachi ni aimashita.",
-          "english": "I met a friend at school yesterday."
-        },
-        "past_neg": {
-          "japanese": "先週、学校に行きませんでした。",
-          "romaji": "Senshuu, gakkou ni ikimasen deshita.",
-          "english": "I didn't go to school last week."
-        }
+        "present_pos": { "japanese": "明日は月曜日です。", "romaji": "Ashita wa getsuyoubi desu.", "english": "Tomorrow is Monday." },
+        "present_neg": { "japanese": "明日は授業がありません。", "romaji": "Ashita wa jugyou ga arimasen.", "english": "There is no class tomorrow." },
+        "past_pos":    { "japanese": "昨日、明日の計画を立てました。", "romaji": "Kinou, ashita no keikaku wo tatemashita.", "english": "Yesterday, I made plans for tomorrow." },
+        "past_neg":    { "japanese": "昨日は明日の準備をしませんでした。", "romaji": "Kinou wa ashita no junbi wo shimasen deshita.", "english": "I didn't prepare for tomorrow yesterday." }
       }
     },
     {
-      "word_id": "n5_155",
-      "word": "友達",
+      "word_id": "n5_031",
+      "word": "遊ぶ",
       "sentences": {
-        "present_pos": {
-          "japanese": "私には親友がいます。",
-          "romaji": "Watashi ni wa shin'yuu ga imasu.",
-          "english": "I have a close friend."
-        },
-        "present_neg": {
-          "japanese": "この町には友達がいません。",
-          "romaji": "Kono machi ni wa tomodachi ga imasen.",
-          "english": "I don't have friends in this town."
-        },
-        "past_pos": {
-          "japanese": "昨日、友達と映画を見ました。",
-          "romaji": "Kinou, tomodachi to eiga wo mimashita.",
-          "english": "I watched a movie with my friend yesterday."
-        },
-        "past_neg": {
-          "japanese": "子供の頃はあまり友達がいませんでした。",
-          "romaji": "Kodomo no koro wa amari tomodachi ga imasen deshita.",
-          "english": "I didn't have many friends when I was a child."
-        }
+        "present_pos": { "japanese": "子供が公園で遊んでいます。", "romaji": "Kodomo ga kouen de asonde imasu.", "english": "Children are playing in the park." },
+        "present_neg": { "japanese": "今日は忙しくて遊びません。", "romaji": "Kyou wa isogashikute asobimasen.", "english": "I'm not playing today because I'm busy." },
+        "past_pos":    { "japanese": "昨日、友達と公園で遊びました。", "romaji": "Kinou, tomodachi to kouen de asobimashita.", "english": "I played with my friend in the park yesterday." },
+        "past_neg":    { "japanese": "試験の前は遊びませんでした。", "romaji": "Shiken no mae wa asobimasen deshita.", "english": "I didn't play before the exam." },
+        "want_pos":    { "japanese": "友達ともっと遊びたいです。", "romaji": "Tomodachi to motto asobitai desu.", "english": "I want to spend more time playing with my friends." },
+        "potential_pos":{ "japanese": "今週末、遊べますか？", "romaji": "Konshuumatsu, asobemasu ka?", "english": "Can you hang out this weekend?" }
       }
     },
     {
       "word_id": "n5_032",
-      "word": "電車",
+      "word": "あそこ",
       "sentences": {
-        "present_pos": {
-          "japanese": "毎日電車で会社に行きます。",
-          "romaji": "Mainichi densha de kaisha ni ikimasu.",
-          "english": "I go to the office by train every day."
-        },
-        "present_neg": {
-          "japanese": "休みの日は電車に乗りません。",
-          "romaji": "Yasumi no hi wa densha ni norimasen.",
-          "english": "I don't take the train on days off."
-        },
-        "past_pos": {
-          "japanese": "昨日、電車で東京に行きました。",
-          "romaji": "Kinou, densha de Toukyou ni ikimashita.",
-          "english": "I went to Tokyo by train yesterday."
-        },
-        "past_neg": {
-          "japanese": "先週は電車に乗りませんでした。",
-          "romaji": "Senshuu wa densha ni norimasen deshita.",
-          "english": "I didn't ride the train last week."
-        }
+        "present_pos": { "japanese": "駅はあそこです。", "romaji": "Eki wa asoko desu.", "english": "The station is over there." },
+        "present_neg": { "japanese": "銀行はあそこじゃないです。", "romaji": "Ginkou wa asoko ja nai desu.", "english": "The bank is not over there." },
+        "past_pos":    { "japanese": "昨日、あそこで友達に会いました。", "romaji": "Kinou, asoko de tomodachi ni aimashita.", "english": "I met my friend over there yesterday." },
+        "past_neg":    { "japanese": "昨日はあそこに行きませんでした。", "romaji": "Kinou wa asoko ni ikimasen deshita.", "english": "I didn't go over there yesterday." }
       }
     },
     {
-      "word_id": "n5_109",
-      "word": "水",
+      "word_id": "n5_033",
+      "word": "頭",
       "sentences": {
-        "present_pos": {
-          "japanese": "毎日水を飲みます。",
-          "romaji": "Mainichi mizu wo nomimasu.",
-          "english": "I drink water every day."
-        },
-        "present_neg": {
-          "japanese": "冷たい水は飲みません。",
-          "romaji": "Tsumetai mizu wa nomimasen.",
-          "english": "I don't drink cold water."
-        },
-        "past_pos": {
-          "japanese": "運動の後、水を飲みました。",
-          "romaji": "Undou no ato, mizu wo nomimashita.",
-          "english": "I drank water after exercising."
-        },
-        "past_neg": {
-          "japanese": "昨日はあまり水を飲みませんでした。",
-          "romaji": "Kinou wa amari mizu wo nomimasen deshita.",
-          "english": "I didn't drink much water yesterday."
-        }
+        "present_pos": { "japanese": "頭が痛いです。", "romaji": "Atama ga itai desu.", "english": "I have a headache." },
+        "present_neg": { "japanese": "今日は頭が痛くないです。", "romaji": "Kyou wa atama ga itakunai desu.", "english": "I don't have a headache today." },
+        "past_pos":    { "japanese": "昨日は頭が痛かったです。", "romaji": "Kinou wa atama ga itakatta desu.", "english": "I had a headache yesterday." },
+        "past_neg":    { "japanese": "以前はあまり頭が痛くなかったです。", "romaji": "Izen wa amari atama ga itakunakatta desu.", "english": "I didn't have headaches much before." }
+      }
+    },
+    {
+      "word_id": "n5_034",
+      "word": "新しい",
+      "sentences": {
+        "present_pos": { "japanese": "私のスマホは新しいです。", "romaji": "Watashi no sumaho wa atarashii desu.", "english": "My smartphone is new." },
+        "present_neg": { "japanese": "この建物はあまり新しくないです。", "romaji": "Kono tatemono wa amari atarashikunai desu.", "english": "This building is not very new." },
+        "past_pos":    { "japanese": "先月、新しい車を買いました。", "romaji": "Sengetsu, atarashii kuruma wo kaimashita.", "english": "I bought a new car last month." },
+        "past_neg":    { "japanese": "そのパソコンはあまり新しくなかったです。", "romaji": "Sono pasokon wa amari atarashikunakatta desu.", "english": "That computer wasn't very new." }
+      }
+    },
+    {
+      "word_id": "n5_035",
+      "word": "暖かい",
+      "sentences": {
+        "present_pos": { "japanese": "今日はとても暖かいです。", "romaji": "Kyou wa totemo atatakai desu.", "english": "It's very warm today." },
+        "present_neg": { "japanese": "今朝はあまり暖かくないです。", "romaji": "Kesa wa amari atatakaku nai desu.", "english": "It's not very warm this morning." },
+        "past_pos":    { "japanese": "昨日はとても暖かかったです。", "romaji": "Kinou wa totemo atatakakatta desu.", "english": "It was very warm yesterday." },
+        "past_neg":    { "japanese": "先週はあまり暖かくなかったです。", "romaji": "Senshuu wa amari atatakaku nakatta desu.", "english": "Last week wasn't very warm." }
+      }
+    },
+    {
+      "word_id": "n5_036",
+      "word": "後",
+      "sentences": {
+        "present_pos": { "japanese": "授業の後、図書館に行きます。", "romaji": "Jugyou no ato, toshokan ni ikimasu.", "english": "I go to the library after class." },
+        "present_neg": { "japanese": "仕事の後、すぐには帰りません。", "romaji": "Shigoto no ato, sugu ni wa kaerimasen.", "english": "I don't go home right after work." },
+        "past_pos":    { "japanese": "食事の後、散歩しました。", "romaji": "Shokuji no ato, sanpo shimashita.", "english": "I took a walk after the meal." },
+        "past_neg":    { "japanese": "映画の後は、何もしませんでした。", "romaji": "Eiga no ato wa, nanimo shimasen deshita.", "english": "I didn't do anything after the movie." }
+      }
+    },
+    {
+      "word_id": "n5_037",
+      "word": "暑い",
+      "sentences": {
+        "present_pos": { "japanese": "今日はとても暑いです。", "romaji": "Kyou wa totemo atsui desu.", "english": "Today is very hot." },
+        "present_neg": { "japanese": "今日はあまり暑くないです。", "romaji": "Kyou wa amari atsukunai desu.", "english": "Today is not very hot." },
+        "past_pos":    { "japanese": "昨日は本当に暑かったです。", "romaji": "Kinou wa hontou ni atsukatta desu.", "english": "It was really hot yesterday." },
+        "past_neg":    { "japanese": "先週はそれほど暑くなかったです。", "romaji": "Senshuu wa sorehodo atsukunakatta desu.", "english": "Last week wasn't that hot." }
+      }
+    },
+    {
+      "word_id": "n5_038",
+      "word": "厚い",
+      "sentences": {
+        "present_pos": { "japanese": "この本はとても厚いです。", "romaji": "Kono hon wa totemo atsui desu.", "english": "This book is very thick." },
+        "present_neg": { "japanese": "あのパンはあまり厚くないです。", "romaji": "Ano pan wa amari atsukunai desu.", "english": "That bread is not very thick." },
+        "past_pos":    { "japanese": "その辞書はとても厚かったです。", "romaji": "Sono jisho wa totemo atsukatta desu.", "english": "That dictionary was very thick." },
+        "past_neg":    { "japanese": "昔の教科書はそれほど厚くなかったです。", "romaji": "Mukashi no kyoukasho wa sorehodo atsukunakatta desu.", "english": "Old textbooks weren't that thick." }
+      }
+    },
+    {
+      "word_id": "n5_039",
+      "word": "熱い",
+      "sentences": {
+        "present_pos": { "japanese": "このスープはとても熱いです。", "romaji": "Kono suupu wa totemo atsui desu.", "english": "This soup is very hot." },
+        "present_neg": { "japanese": "このコーヒーはもう熱くないです。", "romaji": "Kono koohii wa mou atsukunai desu.", "english": "This coffee is not hot anymore." },
+        "past_pos":    { "japanese": "お風呂の水がとても熱かったです。", "romaji": "Ofuro no mizu ga totemo atsukatta desu.", "english": "The bath water was very hot." },
+        "past_neg":    { "japanese": "そのお茶はあまり熱くなかったです。", "romaji": "Sono ocha wa amari atsukunakatta desu.", "english": "That tea wasn't very hot." }
+      }
+    },
+    {
+      "word_id": "n5_040",
+      "word": "会う",
+      "sentences": {
+        "present_pos": { "japanese": "毎週友達に会います。", "romaji": "Maishuu tomodachi ni aimasu.", "english": "I meet my friends every week." },
+        "present_neg": { "japanese": "今日は誰にも会いません。", "romaji": "Kyou wa dare ni mo aimasen.", "english": "I'm not meeting anyone today." },
+        "past_pos":    { "japanese": "昨日、偶然友達に会いました。", "romaji": "Kinou, guuzen tomodachi ni aimashita.", "english": "I ran into my friend by chance yesterday." },
+        "past_neg":    { "japanese": "先週は先生に会いませんでした。", "romaji": "Senshuu wa sensei ni aimasen deshita.", "english": "I didn't meet the teacher last week." },
+        "want_pos":    { "japanese": "彼女にまた会いたいです。", "romaji": "Kanojo ni mata aitai desu.", "english": "I want to meet her again." },
+        "potential_pos":{ "japanese": "今週末、会えますか？", "romaji": "Konshuumatsu, aemasu ka?", "english": "Can we meet this weekend?" }
+      }
+    },
+    {
+      "word_id": "n5_041",
+      "word": "晩ご飯",
+      "sentences": {
+        "present_pos": { "japanese": "毎晩六時に晩ご飯を食べます。", "romaji": "Maiban rokuji ni bangohan wo tabemasu.", "english": "I eat dinner at six every evening." },
+        "present_neg": { "japanese": "今夜は晩ご飯を食べません。", "romaji": "Konya wa bangohan wo tabemasen.", "english": "I'm not eating dinner tonight." },
+        "past_pos":    { "japanese": "昨日の晩ご飯はカレーでした。", "romaji": "Kinou no bangohan wa karee deshita.", "english": "Last night's dinner was curry." },
+        "past_neg":    { "japanese": "昨夜は疲れて晩ご飯を作りませんでした。", "romaji": "Sakuya wa tsukarete bangohan wo tsukurimasen deshita.", "english": "I was tired last night and didn't make dinner." }
+      }
+    },
+    {
+      "word_id": "n5_042",
+      "word": "番号",
+      "sentences": {
+        "present_pos": { "japanese": "私の電話番号を教えます。", "romaji": "Watashi no denwa bangou wo oshiemasu.", "english": "I'll tell you my phone number." },
+        "present_neg": { "japanese": "彼の番号を知りません。", "romaji": "Kare no bangou wo shirimasen.", "english": "I don't know his number." },
+        "past_pos":    { "japanese": "昨日、大切な番号を書き留めました。", "romaji": "Kinou, taisetsu na bangou wo kakitomemashita.", "english": "I wrote down the important number yesterday." },
+        "past_neg":    { "japanese": "その番号を覚えていませんでした。", "romaji": "Sono bangou wo oboete imasen deshita.", "english": "I hadn't memorized that number." }
+      }
+    },
+    {
+      "word_id": "n5_043",
+      "word": "バス",
+      "sentences": {
+        "present_pos": { "japanese": "毎日バスで学校に行きます。", "romaji": "Mainichi basu de gakkou ni ikimasu.", "english": "I go to school by bus every day." },
+        "present_neg": { "japanese": "今日はバスに乗りません。", "romaji": "Kyou wa basu ni norimasen.", "english": "I'm not taking the bus today." },
+        "past_pos":    { "japanese": "昨日、バスで駅まで行きました。", "romaji": "Kinou, basu de eki made ikimashita.", "english": "I went to the station by bus yesterday." },
+        "past_neg":    { "japanese": "先週はバスに乗りませんでした。", "romaji": "Senshuu wa basu ni norimasen deshita.", "english": "I didn't take the bus last week." }
+      }
+    },
+    {
+      "word_id": "n5_044",
+      "word": "バター",
+      "sentences": {
+        "present_pos": { "japanese": "冷蔵庫にバターがあります。", "romaji": "Reizouko ni bataa ga arimasu.", "english": "There is butter in the refrigerator." },
+        "present_neg": { "japanese": "今日はバターがありません。", "romaji": "Kyou wa bataa ga arimasen.", "english": "There is no butter today." },
+        "past_pos":    { "japanese": "パンにバターを塗りました。", "romaji": "Pan ni bataa wo nurimashita.", "english": "I spread butter on the bread." },
+        "past_neg":    { "japanese": "そのケーキにはバターを使いませんでした。", "romaji": "Sono keeki ni wa bataa wo tsukaimasen deshita.", "english": "I didn't use butter in that cake." }
+      }
+    },
+    {
+      "word_id": "n5_045",
+      "word": "ベッド",
+      "sentences": {
+        "present_pos": { "japanese": "部屋にベッドがあります。", "romaji": "Heya ni beddo ga arimasu.", "english": "There is a bed in the room." },
+        "present_neg": { "japanese": "この部屋にベッドがありません。", "romaji": "Kono heya ni beddo ga arimasen.", "english": "There is no bed in this room." },
+        "past_pos":    { "japanese": "昨日、新しいベッドを買いました。", "romaji": "Kinou, atarashii beddo wo kaimashita.", "english": "I bought a new bed yesterday." },
+        "past_neg":    { "japanese": "子供の頃、ベッドがありませんでした。", "romaji": "Kodomo no koro, beddo ga arimasen deshita.", "english": "When I was a child, there was no bed." }
+      }
+    },
+    {
+      "word_id": "n5_046",
+      "word": "勉強",
+      "sentences": {
+        "present_pos": { "japanese": "毎日日本語を勉強します。", "romaji": "Mainichi nihongo wo benkyou shimasu.", "english": "I study Japanese every day." },
+        "present_neg": { "japanese": "今日は勉強しません。", "romaji": "Kyou wa benkyou shimasen.", "english": "I'm not studying today." },
+        "past_pos":    { "japanese": "昨日、試験のために勉強しました。", "romaji": "Kinou, shiken no tame ni benkyou shimashita.", "english": "I studied for the exam yesterday." },
+        "past_neg":    { "japanese": "先週末は全然勉強しませんでした。", "romaji": "Senshuumatsu wa zenzen benkyou shimasen deshita.", "english": "I didn't study at all last weekend." },
+        "want_pos":    { "japanese": "もっと日本語を勉強したいです。", "romaji": "Motto nihongo wo benkyou shitai desu.", "english": "I want to study Japanese more." },
+        "potential_pos":{ "japanese": "図書館では静かに勉強できます。", "romaji": "Toshokan de wa shizuka ni benkyou dekimasu.", "english": "I can study quietly in the library." }
+      }
+    },
+    {
+      "word_id": "n5_047",
+      "word": "便利",
+      "sentences": {
+        "present_pos": { "japanese": "このアプリはとても便利です。", "romaji": "Kono apuri wa totemo benri desu.", "english": "This app is very convenient." },
+        "present_neg": { "japanese": "その駅はあまり便利じゃないです。", "romaji": "Sono eki wa amari benri ja nai desu.", "english": "That station is not very convenient." },
+        "past_pos":    { "japanese": "以前のバス路線はとても便利でした。", "romaji": "Izen no basu rosen wa totemo benri deshita.", "english": "The previous bus route was very convenient." },
+        "past_neg":    { "japanese": "あのアパートはあまり便利じゃなかったです。", "romaji": "Ano apaato wa amari benri ja nakatta desu.", "english": "That apartment wasn't very convenient." }
+      }
+    },
+    {
+      "word_id": "n5_048",
+      "word": "ボールペン",
+      "sentences": {
+        "present_pos": { "japanese": "机の上にボールペンがあります。", "romaji": "Tsukue no ue ni boorupen ga arimasu.", "english": "There is a ballpoint pen on the desk." },
+        "present_neg": { "japanese": "今日はボールペンがありません。", "romaji": "Kyou wa boorupen ga arimasen.", "english": "I don't have a ballpoint pen today." },
+        "past_pos":    { "japanese": "ボールペンで名前を書きました。", "romaji": "Boorupen de namae wo kakimashita.", "english": "I wrote my name with a ballpoint pen." },
+        "past_neg":    { "japanese": "ボールペンを持ってきませんでした。", "romaji": "Boorupen wo motte kimasen deshita.", "english": "I didn't bring a ballpoint pen." }
+      }
+    },
+    {
+      "word_id": "n5_049",
+      "word": "ボタン",
+      "sentences": {
+        "present_pos": { "japanese": "シャツにボタンがあります。", "romaji": "Shatsu ni botan ga arimasu.", "english": "There are buttons on the shirt." },
+        "present_neg": { "japanese": "このジャケットにはボタンがありません。", "romaji": "Kono jaketto ni wa botan ga arimasen.", "english": "This jacket doesn't have buttons." },
+        "past_pos":    { "japanese": "シャツのボタンが取れました。", "romaji": "Shatsu no botan ga toremashita.", "english": "A button came off my shirt." },
+        "past_neg":    { "japanese": "昨日、ボタンを縫いませんでした。", "romaji": "Kinou, botan wo nuimasen deshita.", "english": "I didn't sew on the button yesterday." }
+      }
+    },
+    {
+      "word_id": "n5_050",
+      "word": "帽子",
+      "sentences": {
+        "present_pos": { "japanese": "夏は帽子をかぶります。", "romaji": "Natsu wa boushi wo kaburimasu.", "english": "I wear a hat in summer." },
+        "present_neg": { "japanese": "今日は帽子をかぶりません。", "romaji": "Kyou wa boushi wo kaburi masen.", "english": "I'm not wearing a hat today." },
+        "past_pos":    { "japanese": "外出する時、帽子をかぶりました。", "romaji": "Gaishutsu suru toki, boushi wo kaburimashita.", "english": "When I went out, I wore a hat." },
+        "past_neg":    { "japanese": "先週は帽子を持っていきませんでした。", "romaji": "Senshuu wa boushi wo motte ikimasen deshita.", "english": "I didn't bring a hat last week." }
+      }
+    },
+    {
+      "word_id": "n5_051",
+      "word": "文章",
+      "sentences": {
+        "present_pos": { "japanese": "日本語で文章を書きます。", "romaji": "Nihongo de bunshou wo kakimasu.", "english": "I write sentences in Japanese." },
+        "present_neg": { "japanese": "長い文章は書きません。", "romaji": "Nagai bunshou wa kakimasen.", "english": "I don't write long sentences." },
+        "past_pos":    { "japanese": "昨日、日記に短い文章を書きました。", "romaji": "Kinou, nikki ni mijikai bunshou wo kakimashita.", "english": "Yesterday, I wrote short sentences in my diary." },
+        "past_neg":    { "japanese": "宿題の文章を書きませんでした。", "romaji": "Shukudai no bunshou wo kakimasen deshita.", "english": "I didn't write the homework sentences." }
+      }
+    },
+    {
+      "word_id": "n5_052",
+      "word": "豚肉",
+      "sentences": {
+        "present_pos": { "japanese": "今日の晩ご飯は豚肉です。", "romaji": "Kyou no bangohan wa butaniku desu.", "english": "Tonight's dinner is pork." },
+        "present_neg": { "japanese": "私は豚肉を食べません。", "romaji": "Watashi wa butaniku wo tabemasen.", "english": "I don't eat pork." },
+        "past_pos":    { "japanese": "昨日、豚肉を料理しました。", "romaji": "Kinou, butaniku wo ryouri shimashita.", "english": "I cooked pork yesterday." },
+        "past_neg":    { "japanese": "先週は豚肉を買いませんでした。", "romaji": "Senshuu wa butaniku wo kaimasen deshita.", "english": "I didn't buy pork last week." }
+      }
+    },
+    {
+      "word_id": "n5_053",
+      "word": "病院",
+      "sentences": {
+        "present_pos": { "japanese": "駅の近くに病院があります。", "romaji": "Eki no chikaku ni byouin ga arimasu.", "english": "There is a hospital near the station." },
+        "present_neg": { "japanese": "この辺には病院がありません。", "romaji": "Kono hen ni wa byouin ga arimasen.", "english": "There is no hospital around here." },
+        "past_pos":    { "japanese": "昨日、病院に行きました。", "romaji": "Kinou, byouin ni ikimashita.", "english": "I went to the hospital yesterday." },
+        "past_neg":    { "japanese": "先月は病院に行きませんでした。", "romaji": "Sengetsu wa byouin ni ikimasen deshita.", "english": "I didn't go to the hospital last month." }
+      }
+    },
+    {
+      "word_id": "n5_054",
+      "word": "病気",
+      "sentences": {
+        "present_pos": { "japanese": "今、少し病気です。", "romaji": "Ima, sukoshi byouki desu.", "english": "I'm a little sick now." },
+        "present_neg": { "japanese": "今日は病気じゃないです。", "romaji": "Kyou wa byouki ja nai desu.", "english": "I'm not sick today." },
+        "past_pos":    { "japanese": "先週、病気でした。", "romaji": "Senshuu, byouki deshita.", "english": "I was sick last week." },
+        "past_neg":    { "japanese": "去年の冬は病気じゃなかったです。", "romaji": "Kyonen no fuyu wa byouki ja nakatta desu.", "english": "I wasn't sick last winter." }
+      }
+    },
+    {
+      "word_id": "n5_055",
+      "word": "茶色",
+      "sentences": {
+        "present_pos": { "japanese": "犬の毛は茶色です。", "romaji": "Inu no ke wa chairo desu.", "english": "The dog's fur is brown." },
+        "present_neg": { "japanese": "私のかばんは茶色じゃないです。", "romaji": "Watashi no kaban wa chairo ja nai desu.", "english": "My bag is not brown." },
+        "past_pos":    { "japanese": "その葉っぱは茶色でした。", "romaji": "Sono happa wa chairo deshita.", "english": "That leaf was brown." },
+        "past_neg":    { "japanese": "昔、あの壁は茶色じゃなかったです。", "romaji": "Mukashi, ano kabe wa chairo ja nakatta desu.", "english": "In the past, that wall wasn't brown." }
+      }
+    },
+    {
+      "word_id": "n5_056",
+      "word": "茶碗",
+      "sentences": {
+        "present_pos": { "japanese": "食事の時、茶碗を使います。", "romaji": "Shokuji no toki, chawan wo tsukaimasu.", "english": "I use a rice bowl at meal time." },
+        "present_neg": { "japanese": "今日は茶碗を使いません。", "romaji": "Kyou wa chawan wo tsukaimasen.", "english": "I'm not using a rice bowl today." },
+        "past_pos":    { "japanese": "新しい茶碗を買いました。", "romaji": "Atarashii chawan wo kaimashita.", "english": "I bought a new rice bowl." },
+        "past_neg":    { "japanese": "昨日は茶碗を洗いませんでした。", "romaji": "Kinou wa chawan wo araimasen deshita.", "english": "I didn't wash the rice bowl yesterday." }
+      }
+    },
+    {
+      "word_id": "n5_057",
+      "word": "父",
+      "sentences": {
+        "present_pos": { "japanese": "父は会社員です。", "romaji": "Chichi wa kaishain desu.", "english": "My father is a company employee." },
+        "present_neg": { "japanese": "父は今家にいません。", "romaji": "Chichi wa ima ie ni imasen.", "english": "My father is not home now." },
+        "past_pos":    { "japanese": "父は昨日早く帰りました。", "romaji": "Chichi wa kinou hayaku kaerimashita.", "english": "My father came home early yesterday." },
+        "past_neg":    { "japanese": "父は若い頃、あまり料理しませんでした。", "romaji": "Chichi wa wakai koro, amari ryouri shimasen deshita.", "english": "My father didn't cook much when he was young." }
+      }
+    },
+    {
+      "word_id": "n5_058",
+      "word": "違う",
+      "sentences": {
+        "present_pos": { "japanese": "この答えは違います。", "romaji": "Kono kotae wa chigaimasu.", "english": "This answer is wrong." },
+        "present_neg": { "japanese": "二人の意見はそれほど違いません。", "romaji": "Futari no iken wa sorehodo chigaimasen.", "english": "The two people's opinions don't differ that much." },
+        "past_pos":    { "japanese": "昨日の計画と今日の計画が違いました。", "romaji": "Kinou no keikaku to kyou no keikaku ga chigaimashita.", "english": "Yesterday's plan and today's plan were different." },
+        "past_neg":    { "japanese": "二つの言葉の意味はそれほど違いませんでした。", "romaji": "Futatsu no kotoba no imi wa sorehodo chigaimasen deshita.", "english": "The meanings of the two words didn't differ much." }
+      }
+    },
+    {
+      "word_id": "n5_059",
+      "word": "小さい",
+      "sentences": {
+        "present_pos": { "japanese": "この子犬はとても小さいです。", "romaji": "Kono koinu wa totemo chiisai desu.", "english": "This puppy is very small." },
+        "present_neg": { "japanese": "私のかばんはあまり小さくないです。", "romaji": "Watashi no kaban wa amari chiisakunai desu.", "english": "My bag is not very small." },
+        "past_pos":    { "japanese": "子供の頃、その犬はとても小さかったです。", "romaji": "Kodomo no koro, sono inu wa totemo chiisakatta desu.", "english": "When I was a child, that dog was very small." },
+        "past_neg":    { "japanese": "昔、この街はあまり小さくなかったです。", "romaji": "Mukashi, kono machi wa amari chiisakunakatta desu.", "english": "In the past, this town wasn't very small." }
       }
     },
     {
       "word_id": "n5_060",
-      "word": "本",
+      "word": "小さな",
       "sentences": {
-        "present_pos": {
-          "japanese": "図書館にたくさん本があります。",
-          "romaji": "Toshokan ni takusan hon ga arimasu.",
-          "english": "There are many books in the library."
-        },
-        "present_neg": {
-          "japanese": "私の部屋には本がありません。",
-          "romaji": "Watashi no heya ni wa hon ga arimasen.",
-          "english": "There are no books in my room."
-        },
-        "past_pos": {
-          "japanese": "昨日、本屋で本を買いました。",
-          "romaji": "Kinou, hon'ya de hon wo kaimashita.",
-          "english": "I bought a book at the bookstore yesterday."
-        },
-        "past_neg": {
-          "japanese": "先週は本を読みませんでした。",
-          "romaji": "Senshuu wa hon wo yomimasen deshita.",
-          "english": "I didn't read a book last week."
-        }
+        "present_pos": { "japanese": "小さな子供が公園で遊んでいます。", "romaji": "Chiisana kodomo ga kouen de asonde imasu.", "english": "A small child is playing in the park." },
+        "present_neg": { "japanese": "これは小さな問題じゃないです。", "romaji": "Kore wa chiisana mondai ja nai desu.", "english": "This is not a small problem." },
+        "past_pos":    { "japanese": "小さな花がテーブルの上にありました。", "romaji": "Chiisana hana ga teeburu no ue ni arimashita.", "english": "There was a small flower on the table." },
+        "past_neg":    { "japanese": "それは小さな間違いじゃなかったです。", "romaji": "Sore wa chiisana machigai ja nakatta desu.", "english": "That was not a small mistake." }
       }
     },
     {
-      "word_id": "n5_164",
-      "word": "猫",
+      "word_id": "n5_061",
+      "word": "近い",
       "sentences": {
-        "present_pos": {
-          "japanese": "私は猫を飼っています。",
-          "romaji": "Watashi wa neko wo katte imasu.",
-          "english": "I have a cat."
-        },
-        "present_neg": {
-          "japanese": "姉は猫が好きじゃないです。",
-          "romaji": "Ane wa neko ga suki ja nai desu.",
-          "english": "My older sister doesn't like cats."
-        },
-        "past_pos": {
-          "japanese": "子供の頃、猫がいました。",
-          "romaji": "Kodomo no koro, neko ga imashita.",
-          "english": "When I was a child, I had a cat."
-        },
-        "past_neg": {
-          "japanese": "昔、この家には猫がいませんでした。",
-          "romaji": "Mukashi, kono ie ni wa neko ga imasen deshita.",
-          "english": "In the past, there was no cat in this house."
-        }
+        "present_pos": { "japanese": "駅はここから近いです。", "romaji": "Eki wa koko kara chikai desu.", "english": "The station is near from here." },
+        "present_neg": { "japanese": "スーパーはここから近くないです。", "romaji": "Suupaa wa koko kara chikakunai desu.", "english": "The supermarket is not near from here." },
+        "past_pos":    { "japanese": "以前の家は学校に近かったです。", "romaji": "Izen no ie wa gakkou ni chikakatta desu.", "english": "My previous house was close to school." },
+        "past_neg":    { "japanese": "そのレストランは駅から近くなかったです。", "romaji": "Sono resutoran wa eki kara chikakunakatta desu.", "english": "That restaurant wasn't close to the station." }
+      }
+    },
+    {
+      "word_id": "n5_062",
+      "word": "地下鉄",
+      "sentences": {
+        "present_pos": { "japanese": "毎日地下鉄で通勤します。", "romaji": "Mainichi chikatetsu de tsuukin shimasu.", "english": "I commute by subway every day." },
+        "present_neg": { "japanese": "今日は地下鉄に乗りません。", "romaji": "Kyou wa chikatetsu ni norimasen.", "english": "I'm not taking the subway today." },
+        "past_pos":    { "japanese": "昨日、地下鉄で渋谷に行きました。", "romaji": "Kinou, chikatetsu de Shibuya ni ikimashita.", "english": "I went to Shibuya by subway yesterday." },
+        "past_neg":    { "japanese": "先週は地下鉄を使いませんでした。", "romaji": "Senshuu wa chikatetsu wo tsukaimasen deshita.", "english": "I didn't use the subway last week." }
+      }
+    },
+    {
+      "word_id": "n5_063",
+      "word": "地図",
+      "sentences": {
+        "present_pos": { "japanese": "かばんの中に地図があります。", "romaji": "Kaban no naka ni chizu ga arimasu.", "english": "There is a map in my bag." },
+        "present_neg": { "japanese": "今は紙の地図がありません。", "romaji": "Ima wa kami no chizu ga arimasen.", "english": "I don't have a paper map now." },
+        "past_pos":    { "japanese": "旅行の時、地図を使いました。", "romaji": "Ryokou no toki, chizu wo tsukaimashita.", "english": "I used a map during the trip." },
+        "past_neg":    { "japanese": "以前は地図を持っていきませんでした。", "romaji": "Izen wa chizu wo motte ikimasen deshita.", "english": "I didn't bring a map before." }
+      }
+    },
+    {
+      "word_id": "n5_064",
+      "word": "ちょっと",
+      "sentences": {
+        "present_pos": { "japanese": "ちょっと待ってください。", "romaji": "Chotto matte kudasai.", "english": "Please wait a moment." },
+        "present_neg": { "japanese": "ちょっとしか時間がありません。", "romaji": "Chotto shika jikan ga arimasen.", "english": "I only have a little bit of time." },
+        "past_pos":    { "japanese": "ちょっと休みました。", "romaji": "Chotto yasumimashita.", "english": "I rested for a little while." },
+        "past_neg":    { "japanese": "ちょっとも分かりませんでした。", "romaji": "Chotto mo wakarimasen deshita.", "english": "I didn't understand at all." }
+      }
+    },
+    {
+      "word_id": "n5_065",
+      "word": "丁度",
+      "sentences": {
+        "present_pos": { "japanese": "今、丁度十二時です。", "romaji": "Ima, choudo juuniji desu.", "english": "It is exactly twelve o'clock now." },
+        "present_neg": { "japanese": "丁度いい大きさじゃないです。", "romaji": "Choudo ii ookisa ja nai desu.", "english": "It's not exactly the right size." },
+        "past_pos":    { "japanese": "丁度間に合いました。", "romaji": "Choudo ma ni aimashita.", "english": "I made it just in time." },
+        "past_neg":    { "japanese": "丁度合うサイズがありませんでした。", "romaji": "Choudo au saizu ga arimasen deshita.", "english": "There wasn't a size that fit exactly." }
+      }
+    },
+    {
+      "word_id": "n5_066",
+      "word": "台所",
+      "sentences": {
+        "present_pos": { "japanese": "台所で料理をしています。", "romaji": "Daidokoro de ryouri wo shite imasu.", "english": "I'm cooking in the kitchen." },
+        "present_neg": { "japanese": "今日は台所を使いません。", "romaji": "Kyou wa daidokoro wo tsukaimasen.", "english": "I'm not using the kitchen today." },
+        "past_pos":    { "japanese": "昨日、台所を掃除しました。", "romaji": "Kinou, daidokoro wo souji shimashita.", "english": "I cleaned the kitchen yesterday." },
+        "past_neg":    { "japanese": "先週は台所をあまり使いませんでした。", "romaji": "Senshuu wa daidokoro wo amari tsukaimasen deshita.", "english": "I didn't use the kitchen much last week." }
+      }
+    },
+    {
+      "word_id": "n5_067",
+      "word": "大学",
+      "sentences": {
+        "present_pos": { "japanese": "私は大学で日本語を勉強しています。", "romaji": "Watashi wa daigaku de nihongo wo benkyou shite imasu.", "english": "I study Japanese at university." },
+        "present_neg": { "japanese": "今日は大学がありません。", "romaji": "Kyou wa daigaku ga arimasen.", "english": "There are no classes at university today." },
+        "past_pos":    { "japanese": "昨日、大学で試験がありました。", "romaji": "Kinou, daigaku de shiken ga arimashita.", "english": "There was an exam at university yesterday." },
+        "past_neg":    { "japanese": "先月は大学に行きませんでした。", "romaji": "Sengetsu wa daigaku ni ikimasen deshita.", "english": "I didn't go to university last month." }
+      }
+    },
+    {
+      "word_id": "n5_068",
+      "word": "大丈夫",
+      "sentences": {
+        "present_pos": { "japanese": "体の調子は大丈夫です。", "romaji": "Karada no choushi wa daijoubu desu.", "english": "My body condition is fine." },
+        "present_neg": { "japanese": "この計画はあまり大丈夫じゃないです。", "romaji": "Kono keikaku wa amari daijoubu ja nai desu.", "english": "This plan is not very okay." },
+        "past_pos":    { "japanese": "手術の後も体は大丈夫でした。", "romaji": "Shujutsu no ato mo karada wa daijoubu deshita.", "english": "The body was fine even after the surgery." },
+        "past_neg":    { "japanese": "昨日は頭が痛くて大丈夫じゃなかったです。", "romaji": "Kinou wa atama ga itakute daijoubu ja nakatta desu.", "english": "I wasn't feeling well yesterday because I had a headache." }
+      }
+    },
+    {
+      "word_id": "n5_069",
+      "word": "大好き",
+      "sentences": {
+        "present_pos": { "japanese": "私は日本語が大好きです。", "romaji": "Watashi wa nihongo ga daisuki desu.", "english": "I love Japanese." },
+        "present_neg": { "japanese": "彼は運動が大好きじゃないです。", "romaji": "Kare wa undou ga daisuki ja nai desu.", "english": "He doesn't love sports." },
+        "past_pos":    { "japanese": "子供の頃、アイスクリームが大好きでした。", "romaji": "Kodomo no koro, aisu kuriimu ga daisuki deshita.", "english": "When I was a child, I loved ice cream." },
+        "past_neg":    { "japanese": "以前は魚が大好きじゃなかったです。", "romaji": "Izen wa sakana ga daisuki ja nakatta desu.", "english": "I didn't love fish before." }
+      }
+    },
+    {
+      "word_id": "n5_070",
+      "word": "だんだん",
+      "sentences": {
+        "present_pos": { "japanese": "だんだん日本語が上手になっています。", "romaji": "Dandan nihongo ga jouzu ni natte imasu.", "english": "My Japanese is gradually getting better." },
+        "present_neg": { "japanese": "気温がだんだん下がりません。", "romaji": "Kion ga dandan sagarimasen.", "english": "The temperature is not gradually dropping." },
+        "past_pos":    { "japanese": "だんだん上手になりました。", "romaji": "Dandan jouzu ni narimashita.", "english": "I gradually got better." },
+        "past_neg":    { "japanese": "天気はだんだん良くなりませんでした。", "romaji": "Tenki wa dandan yoku narimasen deshita.", "english": "The weather didn't gradually get better." }
+      }
+    },
+    {
+      "word_id": "n5_071",
+      "word": "誰",
+      "sentences": {
+        "present_pos": { "japanese": "あの人は誰ですか？", "romaji": "Ano hito wa dare desu ka?", "english": "Who is that person?" },
+        "present_neg": { "japanese": "今日は誰も来ません。", "romaji": "Kyou wa dare mo kimasen.", "english": "Nobody is coming today." },
+        "past_pos":    { "japanese": "昨日、誰が来ましたか？", "romaji": "Kinou, dare ga kimashita ka?", "english": "Who came yesterday?" },
+        "past_neg":    { "japanese": "昨日は誰も来ませんでした。", "romaji": "Kinou wa dare mo kimasen deshita.", "english": "Nobody came yesterday." }
+      }
+    },
+    {
+      "word_id": "n5_072",
+      "word": "誰か",
+      "sentences": {
+        "present_pos": { "japanese": "誰かがドアをノックしています。", "romaji": "Dareka ga doa wo nokku shite imasu.", "english": "Someone is knocking on the door." },
+        "present_neg": { "japanese": "誰かに頼みません。", "romaji": "Dareka ni tanomimasen.", "english": "I won't ask anyone." },
+        "past_pos":    { "japanese": "誰かが電話してきました。", "romaji": "Dareka ga denwa shite kimashita.", "english": "Someone called." },
+        "past_neg":    { "japanese": "昨日は誰かに会いませんでした。", "romaji": "Kinou wa dareka ni aimasen deshita.", "english": "I didn't meet anyone yesterday." }
+      }
+    },
+    {
+      "word_id": "n5_073",
+      "word": "出す",
+      "sentences": {
+        "present_pos": { "japanese": "財布からお金を出します。", "romaji": "Saifu kara okane wo dashimasu.", "english": "I take money out of my wallet." },
+        "present_neg": { "japanese": "今日は宿題を出しません。", "romaji": "Kyou wa shukudai wo dashimasen.", "english": "I'm not submitting homework today." },
+        "past_pos":    { "japanese": "引き出しからペンを出しました。", "romaji": "Hikidashi kara pen wo dashimashita.", "english": "I took out a pen from the drawer." },
+        "past_neg":    { "japanese": "締め切りまでに書類を出しませんでした。", "romaji": "Shimekiri made ni shorui wo dashimasen deshita.", "english": "I didn't submit the documents by the deadline." },
+        "want_pos":    { "japanese": "早く答えを出したいです。", "romaji": "Hayaku kotae wo dashitai desu.", "english": "I want to come up with the answer quickly." },
+        "potential_pos":{ "japanese": "この問題の答えを出せますか？", "romaji": "Kono mondai no kotae wo dasemasu ka?", "english": "Can you come up with the answer to this problem?" }
+      }
+    },
+    {
+      "word_id": "n5_074",
+      "word": "出口",
+      "sentences": {
+        "present_pos": { "japanese": "出口はあちらです。", "romaji": "Deguchi wa achira desu.", "english": "The exit is over there." },
+        "present_neg": { "japanese": "あちらは出口じゃないです。", "romaji": "Achira wa deguchi ja nai desu.", "english": "Over there is not the exit." },
+        "past_pos":    { "japanese": "出口の前で友達を待ちました。", "romaji": "Deguchi no mae de tomodachi wo machimashita.", "english": "I waited for my friend in front of the exit." },
+        "past_neg":    { "japanese": "昨日は出口が分かりませんでした。", "romaji": "Kinou wa deguchi ga wakarimasen deshita.", "english": "Yesterday I didn't know where the exit was." }
+      }
+    },
+    {
+      "word_id": "n5_075",
+      "word": "出かける",
+      "sentences": {
+        "present_pos": { "japanese": "毎週末どこかに出かけます。", "romaji": "Maishuuryoku doko ka ni dekakemasu.", "english": "I go out somewhere every weekend." },
+        "present_neg": { "japanese": "今日は出かけません。", "romaji": "Kyou wa dekakemasen.", "english": "I'm not going out today." },
+        "past_pos":    { "japanese": "昨日、友達と映画を見に出かけました。", "romaji": "Kinou, tomodachi to eiga wo mi ni dekakemashita.", "english": "I went out to see a movie with my friend yesterday." },
+        "past_neg":    { "japanese": "雨だったので出かけませんでした。", "romaji": "Ame datta node dekakemasen deshita.", "english": "I didn't go out because it was raining." }
+      }
+    },
+    {
+      "word_id": "n5_076",
+      "word": "電気",
+      "sentences": {
+        "present_pos": { "japanese": "部屋の電気をつけます。", "romaji": "Heya no denki wo tsukemasu.", "english": "I turn on the light in the room." },
+        "present_neg": { "japanese": "寝る時は電気を消します。", "romaji": "Neru toki wa denki wo keshimasu.", "english": "I turn off the light when I go to sleep." },
+        "past_pos":    { "japanese": "昨日、電気代を払いました。", "romaji": "Kinou, denkidai wo haraimashita.", "english": "I paid the electricity bill yesterday." },
+        "past_neg":    { "japanese": "昨夜、停電で電気が来ませんでした。", "romaji": "Sakuya, teiden de denki ga kimasen deshita.", "english": "Last night there was no electricity due to a power outage." }
+      }
+    },
+    {
+      "word_id": "n5_077",
+      "word": "電車",
+      "sentences": {
+        "present_pos": { "japanese": "毎日電車で通勤します。", "romaji": "Mainichi densha de tsuukin shimasu.", "english": "I commute by train every day." },
+        "present_neg": { "japanese": "今日は電車に乗りません。", "romaji": "Kyou wa densha ni norimasen.", "english": "I'm not taking the train today." },
+        "past_pos":    { "japanese": "昨日、電車で大阪に行きました。", "romaji": "Kinou, densha de Oosaka ni ikimashita.", "english": "I went to Osaka by train yesterday." },
+        "past_neg":    { "japanese": "先週末は電車に乗りませんでした。", "romaji": "Senshuumatsu wa densha ni norimasen deshita.", "english": "I didn't take the train last weekend." }
+      }
+    },
+    {
+      "word_id": "n5_078",
+      "word": "電話",
+      "sentences": {
+        "present_pos": { "japanese": "毎晩母に電話します。", "romaji": "Maiban haha ni denwa shimasu.", "english": "I call my mother every evening." },
+        "present_neg": { "japanese": "今日は電話しません。", "romaji": "Kyou wa denwa shimasen.", "english": "I'm not calling today." },
+        "past_pos":    { "japanese": "昨日、先生に電話しました。", "romaji": "Kinou, sensei ni denwa shimashita.", "english": "I called the teacher yesterday." },
+        "past_neg":    { "japanese": "先週は友達に電話しませんでした。", "romaji": "Senshuu wa tomodachi ni denwa shimasen deshita.", "english": "I didn't call my friend last week." },
+        "want_pos":    { "japanese": "今すぐ彼に電話したいです。", "romaji": "Ima sugu kare ni denwa shitai desu.", "english": "I want to call him right now." },
+        "potential_pos":{ "japanese": "今夜、電話できますか？", "romaji": "Konya, denwa dekimasu ka?", "english": "Can you call tonight?" }
+      }
+    },
+    {
+      "word_id": "n5_079",
+      "word": "デパート",
+      "sentences": {
+        "present_pos": { "japanese": "駅の近くにデパートがあります。", "romaji": "Eki no chikaku ni depaato ga arimasu.", "english": "There is a department store near the station." },
+        "present_neg": { "japanese": "この辺にはデパートがありません。", "romaji": "Kono hen ni wa depaato ga arimasen.", "english": "There is no department store around here." },
+        "past_pos":    { "japanese": "昨日、デパートで服を買いました。", "romaji": "Kinou, depaato de fuku wo kaimashita.", "english": "I bought clothes at the department store yesterday." },
+        "past_neg":    { "japanese": "先週はデパートに行きませんでした。", "romaji": "Senshuu wa depaato ni ikimasen deshita.", "english": "I didn't go to the department store last week." }
+      }
+    },
+    {
+      "word_id": "n5_080",
+      "word": "出る",
+      "sentences": {
+        "present_pos": { "japanese": "毎朝八時に家を出ます。", "romaji": "Maiasa hachiji ni ie wo demasu.", "english": "I leave home at eight every morning." },
+        "present_neg": { "japanese": "今日はまだ家を出ません。", "romaji": "Kyou wa mada ie wo demasen.", "english": "I haven't left home yet today." },
+        "past_pos":    { "japanese": "昨日、九時に家を出ました。", "romaji": "Kinou, kuji ni ie wo demashita.", "english": "I left home at nine yesterday." },
+        "past_neg":    { "japanese": "雨だったので外に出ませんでした。", "romaji": "Ame datta node soto ni demasen deshita.", "english": "I didn't go outside because it was raining." }
+      }
+    },
+    {
+      "word_id": "n5_081",
+      "word": "ドア",
+      "sentences": {
+        "present_pos": { "japanese": "ドアを開けてください。", "romaji": "Doa wo akete kudasai.", "english": "Please open the door." },
+        "present_neg": { "japanese": "ドアは開いていません。", "romaji": "Doa wa aite imasen.", "english": "The door is not open." },
+        "past_pos":    { "japanese": "家に帰ったら、ドアが開いていました。", "romaji": "Ie ni kaettara, doa ga aite imashita.", "english": "When I came home, the door was open." },
+        "past_neg":    { "japanese": "昨日、ドアが閉まっていませんでした。", "romaji": "Kinou, doa ga shimatte imasen deshita.", "english": "Yesterday, the door wasn't closed." }
+      }
+    },
+    {
+      "word_id": "n5_082",
+      "word": "どっち",
+      "sentences": {
+        "present_pos": { "japanese": "どっちがいいですか？", "romaji": "Docchi ga ii desu ka?", "english": "Which one is better?" },
+        "present_neg": { "japanese": "どっちも好きじゃないです。", "romaji": "Docchi mo suki ja nai desu.", "english": "I don't like either of them." },
+        "past_pos":    { "japanese": "どっちを選びましたか？", "romaji": "Docchi wo erabimashita ka?", "english": "Which one did you choose?" },
+        "past_neg":    { "japanese": "どっちもよくなかったです。", "romaji": "Docchi mo yokunakatta desu.", "english": "Neither of them was good." }
+      }
+    },
+    {
+      "word_id": "n5_083",
+      "word": "どちら",
+      "sentences": {
+        "present_pos": { "japanese": "どちらがよろしいですか？", "romaji": "Dochira ga yoroshii desu ka?", "english": "Which would be better?" },
+        "present_neg": { "japanese": "どちらも好みじゃないです。", "romaji": "Dochira mo konomi ja nai desu.", "english": "Neither is to my taste." },
+        "past_pos":    { "japanese": "二つのうち、どちらを選びましたか？", "romaji": "Futatsu no uchi, dochira wo erabimashita ka?", "english": "Which of the two did you choose?" },
+        "past_neg":    { "japanese": "どちらも問題がありませんでした。", "romaji": "Dochira mo mondai ga arimasen deshita.", "english": "Neither of them had a problem." }
+      }
+    },
+    {
+      "word_id": "n5_084",
+      "word": "どこ",
+      "sentences": {
+        "present_pos": { "japanese": "お手洗いはどこですか？", "romaji": "Otearai wa doko desu ka?", "english": "Where is the restroom?" },
+        "present_neg": { "japanese": "今日はどこにも行きません。", "romaji": "Kyou wa doko ni mo ikimasen.", "english": "I'm not going anywhere today." },
+        "past_pos":    { "japanese": "昨日、どこに行きましたか？", "romaji": "Kinou, doko ni ikimashita ka?", "english": "Where did you go yesterday?" },
+        "past_neg":    { "japanese": "昨日はどこにも行きませんでした。", "romaji": "Kinou wa doko ni mo ikimasen deshita.", "english": "I didn't go anywhere yesterday." }
+      }
+    },
+    {
+      "word_id": "n5_085",
+      "word": "どなた",
+      "sentences": {
+        "present_pos": { "japanese": "こちらはどなたですか？", "romaji": "Kochira wa donata desu ka?", "english": "Who is this person?" },
+        "present_neg": { "japanese": "今日はどなたもいません。", "romaji": "Kyou wa donata mo imasen.", "english": "There is nobody here today." },
+        "past_pos":    { "japanese": "昨日来た方はどなたでしたか？", "romaji": "Kinou kita kata wa donata deshita ka?", "english": "Who was the person who came yesterday?" },
+        "past_neg":    { "japanese": "どなたからも連絡がありませんでした。", "romaji": "Donata kara mo renraku ga arimasen deshita.", "english": "Nobody made contact." }
+      }
+    },
+    {
+      "word_id": "n5_086",
+      "word": "どの",
+      "sentences": {
+        "present_pos": { "japanese": "どの本が一番おもしろいですか？", "romaji": "Dono hon ga ichiban omoshiroi desu ka?", "english": "Which book is the most interesting?" },
+        "present_neg": { "japanese": "どのサイズも合いません。", "romaji": "Dono saizu mo aimasen.", "english": "No size fits." },
+        "past_pos":    { "japanese": "どの案を選びましたか？", "romaji": "Dono an wo erabimashita ka?", "english": "Which plan did you choose?" },
+        "past_neg":    { "japanese": "どの答えも正しくなかったです。", "romaji": "Dono kotae mo tadashikunakatta desu.", "english": "None of the answers were correct." }
+      }
+    },
+    {
+      "word_id": "n5_087",
+      "word": "どれ",
+      "sentences": {
+        "present_pos": { "japanese": "どれが一番好きですか？", "romaji": "Dore ga ichiban suki desu ka?", "english": "Which do you like best?" },
+        "present_neg": { "japanese": "どれも気に入りません。", "romaji": "Dore mo ki ni irimasen.", "english": "I don't like any of them." },
+        "past_pos":    { "japanese": "どれを注文しましたか？", "romaji": "Dore wo chuumon shimashita ka?", "english": "Which did you order?" },
+        "past_neg":    { "japanese": "どれも正しくなかったです。", "romaji": "Dore mo tadashikunakatta desu.", "english": "None of them were correct." }
+      }
+    },
+    {
+      "word_id": "n5_088",
+      "word": "どう",
+      "sentences": {
+        "present_pos": { "japanese": "最近、調子はどうですか？", "romaji": "Saikin, choushi wa dou desu ka?", "english": "How have you been lately?" },
+        "present_neg": { "japanese": "どう説明すればいいか分かりません。", "romaji": "Dou setsumei sureba ii ka wakarimasen.", "english": "I don't know how to explain it." },
+        "past_pos":    { "japanese": "試験はどうでしたか？", "romaji": "Shiken wa dou deshita ka?", "english": "How was the exam?" },
+        "past_neg":    { "japanese": "どうすればいいか分かりませんでした。", "romaji": "Dou sureba ii ka wakarimasen deshita.", "english": "I didn't know what to do." }
+      }
+    },
+    {
+      "word_id": "n5_089",
+      "word": "動物",
+      "sentences": {
+        "present_pos": { "japanese": "動物園にたくさんの動物がいます。", "romaji": "Doubutsuen ni takusan no doubutsu ga imasu.", "english": "There are many animals in the zoo." },
+        "present_neg": { "japanese": "私はあまり動物が好きじゃないです。", "romaji": "Watashi wa amari doubutsu ga suki ja nai desu.", "english": "I don't like animals very much." },
+        "past_pos":    { "japanese": "子供の頃、動物が大好きでした。", "romaji": "Kodomo no koro, doubutsu ga daisuki deshita.", "english": "When I was a child, I loved animals." },
+        "past_neg":    { "japanese": "以前は動物を飼っていませんでした。", "romaji": "Izen wa doubutsu wo katte imasen deshita.", "english": "I didn't keep animals before." }
+      }
+    },
+    {
+      "word_id": "n5_090",
+      "word": "どうも",
+      "sentences": {
+        "present_pos": { "japanese": "どうもありがとうございます。", "romaji": "Doumo arigatou gozaimasu.", "english": "Thank you very much." },
+        "present_neg": { "japanese": "どうもうまくいきません。", "romaji": "Doumo umaku ikimasen.", "english": "Things just won't go well somehow." },
+        "past_pos":    { "japanese": "昨日はどうもお世話になりました。", "romaji": "Kinou wa doumo osewa ni narimashita.", "english": "Thank you for your help yesterday." },
+        "past_neg":    { "japanese": "どうも調子がよくなかったです。", "romaji": "Doumo choushi ga yokunakatta desu.", "english": "I somehow wasn't feeling well." }
+      }
+    },
+    {
+      "word_id": "n5_091",
+      "word": "どうぞ",
+      "sentences": {
+        "present_pos": { "japanese": "どうぞ、座ってください。", "romaji": "Douzo, suwatte kudasai.", "english": "Please, have a seat." },
+        "present_neg": { "japanese": "今は入れません。どうぞしばらくお待ちください。", "romaji": "Ima wa hairemasen. Douzo shibaraku omachi kudasai.", "english": "You can't come in now. Please wait a moment." },
+        "past_pos":    { "japanese": "「どうぞ」と言って席を譲りました。", "romaji": "\"Douzo\" to itte seki wo yuzurimashita.", "english": "I said \"please go ahead\" and gave up my seat." },
+        "past_neg":    { "japanese": "「どうぞ」と言いませんでした。", "romaji": "\"Douzo\" to iimasen deshita.", "english": "I didn't say \"please go ahead\"." }
+      }
+    },
+    {
+      "word_id": "n5_092",
+      "word": "土曜日",
+      "sentences": {
+        "present_pos": { "japanese": "今日は土曜日です。", "romaji": "Kyou wa doyoubi desu.", "english": "Today is Saturday." },
+        "present_neg": { "japanese": "明日は土曜日じゃないです。", "romaji": "Ashita wa doyoubi ja nai desu.", "english": "Tomorrow is not Saturday." },
+        "past_pos":    { "japanese": "先週の土曜日は友達と映画を見ました。", "romaji": "Senshuu no doyoubi wa tomodachi to eiga wo mimashita.", "english": "Last Saturday I watched a movie with my friends." },
+        "past_neg":    { "japanese": "先週の土曜日は何もしませんでした。", "romaji": "Senshuu no doyoubi wa nanimo shimasen deshita.", "english": "I didn't do anything last Saturday." }
+      }
+    },
+    {
+      "word_id": "n5_093",
+      "word": "絵",
+      "sentences": {
+        "present_pos": { "japanese": "壁に綺麗な絵が飾ってあります。", "romaji": "Kabe ni kirei na e ga kazatte arimasu.", "english": "A beautiful picture is displayed on the wall." },
+        "present_neg": { "japanese": "私の部屋には絵がありません。", "romaji": "Watashi no heya ni wa e ga arimasen.", "english": "There are no pictures in my room." },
+        "past_pos":    { "japanese": "子供の頃、絵を描くのが好きでした。", "romaji": "Kodomo no koro, e wo kaku no ga suki deshita.", "english": "When I was a child, I liked drawing pictures." },
+        "past_neg":    { "japanese": "昨日は絵を描きませんでした。", "romaji": "Kinou wa e wo kakimasen deshita.", "english": "I didn't draw a picture yesterday." }
+      }
+    },
+    {
+      "word_id": "n5_094",
+      "word": "ええ",
+      "sentences": {
+        "present_pos": { "japanese": "ええ、そうです。", "romaji": "Ee, sou desu.", "english": "Yes, that's right." },
+        "present_neg": { "japanese": "ええ、でも今日はちょっと難しいです。", "romaji": "Ee, demo kyou wa chotto muzukashii desu.", "english": "Yes, but today is a bit difficult." },
+        "past_pos":    { "japanese": "「行きましたか？」「ええ、行きました。」", "romaji": "\"Ikimashita ka?\" \"Ee, ikimashita.\"", "english": "\"Did you go?\" \"Yes, I went.\"" },
+        "past_neg":    { "japanese": "ええ、昨日は行きませんでした。", "romaji": "Ee, kinou wa ikimasen deshita.", "english": "Yes, I didn't go yesterday." }
+      }
+    },
+    {
+      "word_id": "n5_095",
+      "word": "映画",
+      "sentences": {
+        "present_pos": { "japanese": "週末に映画を見ます。", "romaji": "Shuumatsu ni eiga wo mimasu.", "english": "I watch movies on weekends." },
+        "present_neg": { "japanese": "今日は映画を見ません。", "romaji": "Kyou wa eiga wo mimasen.", "english": "I'm not watching a movie today." },
+        "past_pos":    { "japanese": "昨日、友達と映画を見ました。", "romaji": "Kinou, tomodachi to eiga wo mimashita.", "english": "I watched a movie with my friend yesterday." },
+        "past_neg":    { "japanese": "先週は映画を見ませんでした。", "romaji": "Senshuu wa eiga wo mimasen deshita.", "english": "I didn't watch a movie last week." }
+      }
+    },
+    {
+      "word_id": "n5_096",
+      "word": "映画館",
+      "sentences": {
+        "present_pos": { "japanese": "駅の近くに映画館があります。", "romaji": "Eki no chikaku ni eigakan ga arimasu.", "english": "There is a cinema near the station." },
+        "present_neg": { "japanese": "この町には映画館がありません。", "romaji": "Kono machi ni wa eigakan ga arimasen.", "english": "There is no cinema in this town." },
+        "past_pos":    { "japanese": "昨日、映画館で映画を見ました。", "romaji": "Kinou, eigakan de eiga wo mimashita.", "english": "I watched a movie at the cinema yesterday." },
+        "past_neg":    { "japanese": "先月は映画館に行きませんでした。", "romaji": "Sengetsu wa eigakan ni ikimasen deshita.", "english": "I didn't go to the cinema last month." }
+      }
+    },
+    {
+      "word_id": "n5_097",
+      "word": "英語",
+      "sentences": {
+        "present_pos": { "japanese": "毎日英語を勉強しています。", "romaji": "Mainichi eigo wo benkyou shite imasu.", "english": "I study English every day." },
+        "present_neg": { "japanese": "私はあまり英語を話しません。", "romaji": "Watashi wa amari eigo wo hanashimasen.", "english": "I don't speak English very much." },
+        "past_pos":    { "japanese": "学校で英語を勉強しました。", "romaji": "Gakkou de eigo wo benkyou shimashita.", "english": "I studied English at school." },
+        "past_neg":    { "japanese": "子供の頃、英語を勉強しませんでした。", "romaji": "Kodomo no koro, eigo wo benkyou shimasen deshita.", "english": "I didn't study English when I was a child." }
+      }
+    },
+    {
+      "word_id": "n5_098",
+      "word": "駅",
+      "sentences": {
+        "present_pos": { "japanese": "家の近くに駅があります。", "romaji": "Ie no chikaku ni eki ga arimasu.", "english": "There is a station near my house." },
+        "present_neg": { "japanese": "歩いて行ける距離に駅がありません。", "romaji": "Aruite ikeru kyori ni eki ga arimasen.", "english": "There is no station within walking distance." },
+        "past_pos":    { "japanese": "昨日、駅で友達を待ちました。", "romaji": "Kinou, eki de tomodachi wo machimashita.", "english": "I waited for my friend at the station yesterday." },
+        "past_neg":    { "japanese": "以前は、この辺に駅がありませんでした。", "romaji": "Izen wa, kono hen ni eki ga arimasen deshita.", "english": "In the past, there was no station around here." }
+      }
+    },
+    {
+      "word_id": "n5_099",
+      "word": "鉛筆",
+      "sentences": {
+        "present_pos": { "japanese": "机の上に鉛筆があります。", "romaji": "Tsukue no ue ni enpitsu ga arimasu.", "english": "There is a pencil on the desk." },
+        "present_neg": { "japanese": "今日は鉛筆がありません。", "romaji": "Kyou wa enpitsu ga arimasen.", "english": "I don't have a pencil today." },
+        "past_pos":    { "japanese": "鉛筆で絵を描きました。", "romaji": "Enpitsu de e wo kakimashita.", "english": "I drew a picture with a pencil." },
+        "past_neg":    { "japanese": "試験では鉛筆を使いませんでした。", "romaji": "Shiken de wa enpitsu wo tsukaimasen deshita.", "english": "I didn't use a pencil in the exam." }
+      }
+    },
+    {
+      "word_id": "n5_100",
+      "word": "エレベーター",
+      "sentences": {
+        "present_pos": { "japanese": "このビルにエレベーターがあります。", "romaji": "Kono biru ni erebeetaa ga arimasu.", "english": "There is an elevator in this building." },
+        "present_neg": { "japanese": "古い建物にはエレベーターがありません。", "romaji": "Furui tatemono ni wa erebeetaa ga arimasen.", "english": "There is no elevator in the old building." },
+        "past_pos":    { "japanese": "エレベーターで五階に上がりました。", "romaji": "Erebeetaa de gokai ni agarimashita.", "english": "I went up to the fifth floor by elevator." },
+        "past_neg":    { "japanese": "エレベーターが壊れていたので使いませんでした。", "romaji": "Erebeetaa ga kowarete ita node tsukaimasen deshita.", "english": "I didn't use the elevator because it was broken." }
       }
     }
   ]
